@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datos generados por el pipeline
+data/bronze/
+data/silver/
+data/gold/
+*.parquet
+
+# Entornos
+venv/
+.venv/
+.env
+
+# Docker
+docker/volumes/
+
+# Spark
+spark-warehouse/
+metastore_db/
