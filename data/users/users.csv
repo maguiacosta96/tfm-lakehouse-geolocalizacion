@@ -1,0 +1,501 @@
+user_id,nombre,edad,rango_etario,genero,segmento,fecha_alta,provincia
+USR_00001,Sr(a). Josefina Gonzalez,22,Joven,Masculino,Premium,2026-05-25,Tucumán
+USR_00002,Dr(a). Isabella Ruiz,69,Senior,Femenino,Premium,2025-03-12,Ciudad Autónoma de Buenos Aires
+USR_00003,Thiago Benjamin Gomez,47,Adulto,Masculino,Premium,2026-01-12,Córdoba
+USR_00004,Jeronimo Thiago Nicolas Rodriguez Coronel,59,Senior,No binario,Básico,2025-01-10,Santa Fe
+USR_00005,Sofía Joaquin Rivero,63,Senior,No binario,Premium,2025-09-18,Salta
+USR_00006,Constanza Juan Ignacio Vargas,55,Adulto,No binario,Premium,2026-04-21,Mendoza
+USR_00007,Ian Ezequiel Lucas Romero,61,Senior,Femenino,Premium,2026-04-04,Ciudad Autónoma de Buenos Aires
+USR_00008,Benjamin Renata Flores,30,Joven,Masculino,Premium,2026-01-24,Entre Ríos
+USR_00009,Sr(a). Alma Gomez,47,Adulto,Femenino,Estándar,2025-12-28,Santa Fe
+USR_00010,Paulina Thiago Gabriel Vera,41,Adulto,Masculino,Premium,2025-09-24,Santa Fe
+USR_00011,Ciro Benjamin Gael Gonzalez Peralta,19,Joven,Masculino,Estándar,2024-09-26,Salta
+USR_00012,Pedro Valentino Acosta Diaz,27,Joven,Femenino,Estándar,2025-06-19,Santa Fe
+USR_00013,Manuel Santiago Ramos,40,Adulto,Masculino,Estándar,2025-05-04,Entre Ríos
+USR_00014,Valentina Jazmin Juan Cruz Rodriguez,61,Senior,No binario,Premium,2025-01-13,Tucumán
+USR_00015,Dr(a). Thiago Maldonado,64,Senior,Masculino,Premium,2026-07-19,Córdoba
+USR_00016,Dr(a). Samuel Romero,18,Joven,Femenino,Premium,2025-07-21,Córdoba
+USR_00017,Mateo Rodriguez Moreno,58,Senior,No binario,Estándar,2023-11-22,Mendoza
+USR_00018,Mateo Miranda Lopez,57,Senior,Femenino,Estándar,2025-09-24,Santa Fe
+USR_00019,Catalina Acuña,63,Senior,Masculino,Básico,2024-05-28,Salta
+USR_00020,Dr(a). Mateo Benjamin Paez,42,Adulto,Masculino,Estándar,2025-08-17,Córdoba
+USR_00021,Agustina Pereyra,19,Joven,Femenino,Estándar,2025-01-23,Ciudad Autónoma de Buenos Aires
+USR_00022,Federico Rodriguez,19,Joven,No binario,Premium,2024-02-07,Tucumán
+USR_00023,Agustina Zoe Valentina Sosa,53,Adulto,No binario,Básico,2025-10-08,Ciudad Autónoma de Buenos Aires
+USR_00024,Josefina Carrizo,29,Joven,No binario,Estándar,2024-02-19,Santa Fe
+USR_00025,Sofia Benitez,33,Adulto,No binario,Premium,2024-04-29,Córdoba
+USR_00026,Mateo Ezequiel Camilo Dominguez,44,Adulto,Masculino,Básico,2026-04-09,Tucumán
+USR_00027,Camilo Benjamin Diaz Roldan,54,Adulto,No binario,Estándar,2026-06-28,Buenos Aires
+USR_00028,Sr(a). Valentino Torres,59,Senior,Femenino,Estándar,2024-10-21,Santa Fe
+USR_00029,Dr(a). Pedro Suarez,66,Senior,Femenino,Básico,2025-02-04,Salta
+USR_00030,Mora Diaz Suarez,40,Adulto,Femenino,Estándar,2024-12-07,Ciudad Autónoma de Buenos Aires
+USR_00031,Pilar Campos Acosta,63,Senior,Femenino,Estándar,2023-08-15,Entre Ríos
+USR_00032,Tiziano Jeremias Fernandez,21,Joven,No binario,Básico,2025-01-04,Salta
+USR_00033,Tiziano Benjamin Ramos,27,Joven,Masculino,Básico,2024-05-02,Entre Ríos
+USR_00034,Felipe Alma Ramos Benitez,64,Senior,No binario,Básico,2026-04-26,Salta
+USR_00035,Nahuel Cordoba Rojas,23,Joven,Femenino,Estándar,2025-07-15,Buenos Aires
+USR_00036,Francisco Mora Gonzalez Roldan,34,Adulto,Masculino,Básico,2024-03-21,Tucumán
+USR_00037,Maria Victoria Medina Sanchez,21,Joven,Femenino,Premium,2026-05-01,Salta
+USR_00038,Dr(a). Emma Gimenez,36,Adulto,Femenino,Básico,2026-05-08,Tucumán
+USR_00039,Lisandro Alma Miranda Nuñez,70,Senior,Femenino,Estándar,2026-02-12,Buenos Aires
+USR_00040,Dr(a). Victoria Toledo,18,Joven,No binario,Básico,2024-02-12,Salta
+USR_00041,Francesca Emanuel Campos,57,Senior,No binario,Básico,2026-04-26,Salta
+USR_00042,Juana Soria,41,Adulto,Masculino,Básico,2025-04-17,Córdoba
+USR_00043,Bruno Fernandez Acosta,61,Senior,Masculino,Estándar,2025-11-03,Buenos Aires
+USR_00044,Alma Diaz,20,Joven,Femenino,Premium,2025-12-29,Mendoza
+USR_00045,Zoe Jazmin Mendez,27,Joven,No binario,Básico,2026-01-01,Ciudad Autónoma de Buenos Aires
+USR_00046,Santino Nicolas Martina Martinez,49,Adulto,No binario,Básico,2024-01-15,Mendoza
+USR_00047,Juan Godoy,53,Adulto,Femenino,Estándar,2025-01-19,Buenos Aires
+USR_00048,Kiara Lucas Ezequiel Cabrera Sanchez,50,Adulto,Femenino,Básico,2023-11-08,Córdoba
+USR_00049,Gael Benitez Perez,73,Senior,Femenino,Estándar,2025-02-22,Santa Fe
+USR_00050,Malena Ambar Suarez,35,Adulto,Masculino,Estándar,2023-12-19,Córdoba
+USR_00051,Sr(a). Catalina Alvarez,40,Adulto,Femenino,Básico,2024-10-12,Tucumán
+USR_00052,Maria Guadalupe Mia Valentina Sanchez Bustos,49,Adulto,Masculino,Premium,2025-10-16,Salta
+USR_00053,Simon Alma Valentina Molina Quiroga,69,Senior,No binario,Estándar,2024-01-10,Ciudad Autónoma de Buenos Aires
+USR_00054,Catalina Juan Cruz Ortiz Soria,54,Adulto,Femenino,Básico,2025-02-19,Entre Ríos
+USR_00055,Emma Ema Aguirre,19,Joven,No binario,Estándar,2024-08-25,Mendoza
+USR_00056,Zoe Juan Gabriel Herrera,35,Adulto,Masculino,Básico,2026-05-27,Santa Fe
+USR_00057,Lautaro Gabriel Valentino Moyano,58,Senior,Femenino,Premium,2025-03-30,Córdoba
+USR_00058,Julian Maximo Roldan,48,Adulto,Femenino,Premium,2024-06-13,Ciudad Autónoma de Buenos Aires
+USR_00059,Sr(a). Uma Diaz,68,Senior,No binario,Premium,2024-03-25,Entre Ríos
+USR_00060,Paulina Cabrera Muñoz,56,Senior,Femenino,Premium,2024-06-08,Santa Fe
+USR_00061,Lucas Felipe Ledesma Guzman,34,Adulto,Masculino,Estándar,2025-04-21,Ciudad Autónoma de Buenos Aires
+USR_00062,Thiago Nicolas Hernandez,43,Adulto,Masculino,Estándar,2023-07-27,Córdoba
+USR_00063,Dr(a). Joaquina Rodriguez,60,Senior,No binario,Premium,2024-06-06,Mendoza
+USR_00064,Agustin Thiago Herrera,55,Adulto,No binario,Premium,2025-02-14,Córdoba
+USR_00065,Salvador Mora Perez Gomez,59,Senior,Masculino,Básico,2025-05-02,Ciudad Autónoma de Buenos Aires
+USR_00066,Dante Juan Ignacio Ramirez Rodriguez,30,Joven,No binario,Premium,2024-02-14,Salta
+USR_00067,Mia Morena Juan Manuel Ramirez Torres,70,Senior,No binario,Estándar,2024-04-11,Córdoba
+USR_00068,Nina Sofia Blanco,37,Adulto,Femenino,Estándar,2025-08-26,Córdoba
+USR_00069,Agustina Perez,24,Joven,Femenino,Premium,2026-06-28,Mendoza
+USR_00070,Maximiliano Valentino Rios Pereyra,64,Senior,Femenino,Estándar,2024-01-14,Entre Ríos
+USR_00071,Dr(a). Alma Fernandez,75,Senior,No binario,Básico,2026-02-18,Mendoza
+USR_00072,Juan Martin Garcia,21,Joven,Masculino,Básico,2025-07-24,Salta
+USR_00073,Emilia Juana Alvarez,33,Adulto,Femenino,Básico,2025-02-03,Santa Fe
+USR_00074,Benicio Violeta Garcia,47,Adulto,Femenino,Estándar,2025-10-18,Buenos Aires
+USR_00075,Sr(a). Lisandro Torres,58,Senior,No binario,Premium,2023-08-29,Córdoba
+USR_00076,Martina Camila Ledesma Sanchez,33,Adulto,No binario,Básico,2024-12-23,Mendoza
+USR_00077,Jeremias Ponce,53,Adulto,Femenino,Básico,2023-10-07,Córdoba
+USR_00078,Manuel Ema Rojas,24,Joven,No binario,Premium,2023-07-26,Buenos Aires
+USR_00079,Lara Benjamin Vargas,65,Senior,No binario,Básico,2025-02-11,Santa Fe
+USR_00080,Thiago Benjamin Alvarez,68,Senior,No binario,Estándar,2024-07-31,Santa Fe
+USR_00081,Delfina Benjamin Molina Leiva,19,Joven,No binario,Estándar,2025-11-14,Ciudad Autónoma de Buenos Aires
+USR_00082,Guillermina Cordoba Rodriguez,51,Adulto,Masculino,Básico,2024-10-31,Tucumán
+USR_00083,Victoria Nuñez,29,Joven,Masculino,Premium,2024-06-23,Entre Ríos
+USR_00084,Miguel Angel Herrera,52,Adulto,No binario,Estándar,2025-01-07,Santa Fe
+USR_00085,Sr(a). Rafael Cardozo,52,Adulto,No binario,Premium,2025-10-15,Tucumán
+USR_00086,Dr(a). Agustin Ayala,18,Joven,No binario,Básico,2026-03-20,Córdoba
+USR_00087,Juan Pablo Ferreyra Olivera,27,Joven,Masculino,Estándar,2025-09-05,Buenos Aires
+USR_00088,Francisco Lopez Garcia,36,Adulto,Femenino,Estándar,2024-04-05,Mendoza
+USR_00089,Julieta Faustino Rojas Perez,47,Adulto,No binario,Estándar,2024-05-15,Córdoba
+USR_00090,Emma Rodriguez Bustos,22,Joven,Masculino,Estándar,2025-08-13,Ciudad Autónoma de Buenos Aires
+USR_00091,Jeronimo Rodriguez,47,Adulto,Masculino,Estándar,2025-08-08,Ciudad Autónoma de Buenos Aires
+USR_00092,Dr(a). Mia Valentina Maidana,24,Joven,Masculino,Premium,2024-10-14,Mendoza
+USR_00093,Ignacio Maria Victoria Hernandez Alvarez,56,Senior,Femenino,Estándar,2024-03-29,Buenos Aires
+USR_00094,Juan Chavez Arias,34,Adulto,No binario,Básico,2024-08-01,Buenos Aires
+USR_00095,Dr(a). Valentino Chavez,61,Senior,Masculino,Básico,2025-06-22,Mendoza
+USR_00096,Sr(a). Nicolas Dominguez,35,Adulto,No binario,Básico,2026-03-02,Córdoba
+USR_00097,Delfina Bianca Ferreyra Flores,46,Adulto,Femenino,Estándar,2025-06-01,Salta
+USR_00098,Santiago Catalina Lopez,63,Senior,No binario,Básico,2025-07-03,Mendoza
+USR_00099,Nahiara Jazmin Moreno,71,Senior,Femenino,Estándar,2025-12-22,Tucumán
+USR_00100,Martina Muñoz,52,Adulto,Masculino,Estándar,2025-11-17,Buenos Aires
+USR_00101,Santiago Mendez Torres,39,Adulto,Femenino,Premium,2023-09-09,Ciudad Autónoma de Buenos Aires
+USR_00102,Facundo Gonzalez,68,Senior,Masculino,Básico,2024-01-10,Buenos Aires
+USR_00103,Tomas Ortiz,70,Senior,Masculino,Premium,2024-07-18,Entre Ríos
+USR_00104,Abigail Cardozo Gomez,66,Senior,Masculino,Estándar,2025-06-22,Mendoza
+USR_00105,Thiago Benjamin Sosa,54,Adulto,Masculino,Estándar,2024-08-01,Mendoza
+USR_00106,Bianca Juan Bautista Martinez,44,Adulto,No binario,Premium,2024-12-16,Salta
+USR_00107,Carmela Ponce,41,Adulto,No binario,Básico,2026-01-24,Buenos Aires
+USR_00108,Sr(a). Mateo Benjamin Moreno,45,Adulto,No binario,Premium,2023-10-14,Tucumán
+USR_00109,Dr(a). Victoria Ortiz,60,Senior,Femenino,Estándar,2023-12-07,Santa Fe
+USR_00110,Ivan Juliana Alvarez Romero,49,Adulto,Femenino,Premium,2025-05-08,Salta
+USR_00111,Camila Fernandez Paez,57,Senior,Masculino,Estándar,2025-09-01,Ciudad Autónoma de Buenos Aires
+USR_00112,Thiago Lionel Alvarez Carrizo,58,Senior,Masculino,Estándar,2024-04-14,Salta
+USR_00113,Santino Agustin Ramiro Torres,46,Adulto,No binario,Estándar,2023-07-28,Buenos Aires
+USR_00114,Dr(a). Juan Bautista Ramirez,63,Senior,No binario,Básico,2025-09-26,Tucumán
+USR_00115,Francisco Alma Ramirez,36,Adulto,Femenino,Básico,2024-12-08,Santa Fe
+USR_00116,Juan Ignacio Juan Cruz Lopez,54,Adulto,Femenino,Básico,2024-01-20,Entre Ríos
+USR_00117,Nina Emma Gomez,52,Adulto,No binario,Estándar,2024-06-16,Entre Ríos
+USR_00118,Bruno Paz,23,Joven,Masculino,Básico,2024-04-03,Santa Fe
+USR_00119,Bruno Bruno Gonzalez,70,Senior,Masculino,Premium,2023-08-24,Mendoza
+USR_00120,Sr(a). Santino Farias,20,Joven,No binario,Estándar,2026-03-22,Entre Ríos
+USR_00121,Dr(a). Valentino Gonzalez,70,Senior,Femenino,Básico,2023-10-12,Mendoza
+USR_00122,Dr(a). Agustina Flores,56,Senior,Femenino,Estándar,2024-07-08,Córdoba
+USR_00123,Sr(a). Martina Gonzalez,42,Adulto,No binario,Estándar,2026-04-01,Córdoba
+USR_00124,Rosario Cabrera Gomez,50,Adulto,No binario,Básico,2026-03-30,Salta
+USR_00125,Salvador Bustos,60,Senior,Masculino,Premium,2025-06-26,Buenos Aires
+USR_00126,Juan Cruz Diaz Sanchez,74,Senior,Femenino,Estándar,2024-12-03,Ciudad Autónoma de Buenos Aires
+USR_00127,Dr(a). Jeronimo Sanchez,72,Senior,Femenino,Estándar,2024-05-18,Córdoba
+USR_00128,Bautista Ramirez,56,Senior,Masculino,Básico,2026-05-02,Mendoza
+USR_00129,Paloma Luz Maria Paz Molina,34,Adulto,Masculino,Premium,2025-06-24,Buenos Aires
+USR_00130,Constantino Farias Perez,69,Senior,No binario,Premium,2025-07-18,Córdoba
+USR_00131,Pedro Barrios Ruiz,65,Senior,No binario,Premium,2025-04-28,Tucumán
+USR_00132,Dr(a). Santiago Benjamin Cabrera,29,Joven,No binario,Estándar,2025-07-21,Buenos Aires
+USR_00133,Mateo Benjamin Josefina Mansilla,57,Senior,Masculino,Premium,2024-10-22,Santa Fe
+USR_00134,Sr(a). Delfina Carrizo,58,Senior,Femenino,Básico,2025-01-28,Ciudad Autónoma de Buenos Aires
+USR_00135,Felipe Olivia Moyano Ojeda,35,Adulto,Femenino,Básico,2025-05-22,Buenos Aires
+USR_00136,Bianca Sanchez,48,Adulto,Femenino,Básico,2023-07-27,Salta
+USR_00137,Sr(a). Martina Perez,34,Adulto,Masculino,Básico,2025-06-28,Santa Fe
+USR_00138,Sr(a). Emilia Herrera,53,Adulto,Femenino,Básico,2024-05-11,Tucumán
+USR_00139,Sr(a). Ana Paula Fernandez,37,Adulto,Masculino,Premium,2026-05-07,Mendoza
+USR_00140,Pedro Gonzalez,20,Joven,No binario,Básico,2025-11-16,Entre Ríos
+USR_00141,Camila Miranda,56,Senior,Femenino,Premium,2025-07-12,Salta
+USR_00142,Juan Ignacio Zoe Jazmin Gomez Rodriguez,68,Senior,Femenino,Básico,2023-08-29,Tucumán
+USR_00143,Mateo Garcia Diaz,37,Adulto,Masculino,Básico,2026-02-22,Entre Ríos
+USR_00144,Lourdes Vazquez Ojeda,43,Adulto,No binario,Básico,2026-04-29,Buenos Aires
+USR_00145,Nahuel Olivia Sanchez Perez,67,Senior,No binario,Premium,2025-02-19,Ciudad Autónoma de Buenos Aires
+USR_00146,Maria Paz Flores Maldonado,64,Senior,Femenino,Estándar,2024-02-26,Mendoza
+USR_00147,Clara Perez Perez,40,Adulto,Masculino,Básico,2025-01-02,Ciudad Autónoma de Buenos Aires
+USR_00148,Ciro Ambar Fernandez,64,Senior,Femenino,Básico,2025-10-15,Buenos Aires
+USR_00149,Santino Moreno Luna,35,Adulto,Femenino,Premium,2026-07-07,Tucumán
+USR_00150,Benicio Gonzalez,47,Adulto,No binario,Estándar,2026-05-07,Mendoza
+USR_00151,Sr(a). Valentina Ruiz,22,Joven,Masculino,Premium,2025-06-24,Buenos Aires
+USR_00152,Juan Bautista Olivera Fernandez,60,Senior,No binario,Estándar,2025-12-09,Ciudad Autónoma de Buenos Aires
+USR_00153,Sr(a). Lautaro Rojas,65,Senior,Femenino,Premium,2025-10-25,Salta
+USR_00154,Joaquín Gonzalez Medina,39,Adulto,Femenino,Estándar,2023-12-01,Santa Fe
+USR_00155,Ciro Benjamin Pilar Diaz Guzman,45,Adulto,No binario,Premium,2025-08-21,Ciudad Autónoma de Buenos Aires
+USR_00156,Delfina Herrera Lucero,55,Adulto,No binario,Premium,2026-07-18,Entre Ríos
+USR_00157,Julia Benitez Perez,37,Adulto,Femenino,Estándar,2025-02-15,Tucumán
+USR_00158,Mateo Ezequiel Benjamin Rodriguez,72,Senior,No binario,Estándar,2026-05-05,Tucumán
+USR_00159,Lorenzo Paz Sosa,43,Adulto,Masculino,Estándar,2024-07-24,Entre Ríos
+USR_00160,Manuel Villalba Nuñez,75,Senior,No binario,Básico,2024-10-22,Santa Fe
+USR_00161,Salvador Benitez,69,Senior,No binario,Básico,2026-06-27,Buenos Aires
+USR_00162,Juan Pablo Emilia Vega Acosta,24,Joven,Femenino,Básico,2025-05-29,Buenos Aires
+USR_00163,Facundo Castillo Dominguez,30,Joven,No binario,Estándar,2024-11-01,Córdoba
+USR_00164,Olivia Milo Quiroga Moreno,58,Senior,No binario,Básico,2026-06-08,Salta
+USR_00165,Delfina Juana Rodriguez Toledo,49,Adulto,No binario,Estándar,2023-11-27,Buenos Aires
+USR_00166,Sofía Julia Ramos Carrizo,51,Adulto,Masculino,Estándar,2024-06-07,Salta
+USR_00167,Sr(a). Lola Escobar,68,Senior,Femenino,Premium,2024-05-08,Mendoza
+USR_00168,Mia Jazmin Diaz,22,Joven,Masculino,Premium,2025-08-09,Tucumán
+USR_00169,Vicente Mateo Agustin Godoy,39,Adulto,Femenino,Estándar,2023-08-04,Córdoba
+USR_00170,Antonella Maria Luz Ramos,61,Senior,Masculino,Estándar,2025-09-07,Tucumán
+USR_00171,Thiago Benjamin Franco Fernandez,69,Senior,Masculino,Premium,2025-03-16,Salta
+USR_00172,Sr(a). Bautista Villalba,73,Senior,Masculino,Estándar,2024-05-13,Buenos Aires
+USR_00173,Felipe Florencia Gonzalez Vera,32,Adulto,No binario,Estándar,2024-11-02,Salta
+USR_00174,Sr(a). Guadalupe Ojeda,29,Joven,No binario,Estándar,2025-05-08,Ciudad Autónoma de Buenos Aires
+USR_00175,Santino Gabriel Valentin Godoy Gomez,69,Senior,Masculino,Estándar,2025-09-22,Ciudad Autónoma de Buenos Aires
+USR_00176,Lautaro Nicolas Dylan Ezequiel Miranda,36,Adulto,Femenino,Estándar,2024-04-03,Tucumán
+USR_00177,Joaquin Alma Jazmin Rios,55,Adulto,Femenino,Estándar,2024-07-05,Santa Fe
+USR_00178,Dr(a). Lautaro Gabriel Vera,39,Adulto,No binario,Básico,2025-02-10,Salta
+USR_00179,Valentino Santino Rojas Garcia,42,Adulto,Femenino,Estándar,2026-07-21,Tucumán
+USR_00180,Dr(a). Violeta Diaz,18,Joven,Femenino,Premium,2024-01-06,Salta
+USR_00181,Alma Valentina Nicolas Romero,71,Senior,No binario,Premium,2026-04-01,Tucumán
+USR_00182,Sofia Belen Julieta Acuña Gonzalez,66,Senior,Masculino,Básico,2024-07-01,Córdoba
+USR_00183,Juan Cruz Garcia Lopez,53,Adulto,No binario,Básico,2026-06-08,Mendoza
+USR_00184,Tomàs Fernandez Acosta,35,Adulto,Masculino,Básico,2026-01-10,Buenos Aires
+USR_00185,Benjamin Barrios,62,Senior,Masculino,Básico,2024-09-16,Santa Fe
+USR_00186,Olivia Bianca Garcia,38,Adulto,Femenino,Estándar,2024-11-12,Santa Fe
+USR_00187,Bautista Thiago Ezequiel Diaz,32,Adulto,Masculino,Estándar,2025-02-14,Entre Ríos
+USR_00188,Sr(a). Juana Ortiz,50,Adulto,No binario,Premium,2024-07-31,Tucumán
+USR_00189,Juan Manuel Thiago Gabriel Gimenez Hernandez,35,Adulto,No binario,Premium,2024-09-16,Buenos Aires
+USR_00190,Sr(a). Maria Victoria Mendoza,24,Joven,No binario,Básico,2026-05-13,Tucumán
+USR_00191,Lola Isabel Rodriguez,47,Adulto,Femenino,Básico,2026-07-22,Salta
+USR_00192,Sr(a). Mia Valentina Muñoz,66,Senior,No binario,Estándar,2023-08-18,Buenos Aires
+USR_00193,Thiago Nahuel Felipe Perez Mansilla,34,Adulto,Femenino,Estándar,2024-09-01,Entre Ríos
+USR_00194,Simon Agustin Rodriguez Bravo,66,Senior,No binario,Básico,2023-09-16,Tucumán
+USR_00195,Lautaro Olivera Gomez,63,Senior,Femenino,Premium,2025-02-21,Buenos Aires
+USR_00196,Lola Ayala Ruiz,18,Joven,Femenino,Estándar,2024-09-14,Buenos Aires
+USR_00197,Dr(a). Mia Valentina Moreno,61,Senior,Femenino,Premium,2024-05-11,Córdoba
+USR_00198,Dr(a). Luz Maria Ortiz,64,Senior,Masculino,Estándar,2024-05-28,Córdoba
+USR_00199,Felipe Paloma Gonzalez,18,Joven,Masculino,Estándar,2026-02-13,Ciudad Autónoma de Buenos Aires
+USR_00200,Miguel Angel Juana Correa Soria,35,Adulto,Femenino,Premium,2024-08-08,Mendoza
+USR_00201,Dr(a). Micaela Perez,32,Adulto,Masculino,Estándar,2023-07-25,Entre Ríos
+USR_00202,Ivan Acosta,26,Joven,Masculino,Básico,2025-12-07,Córdoba
+USR_00203,Luisana Romero,48,Adulto,No binario,Estándar,2025-07-22,Buenos Aires
+USR_00204,León Rojas,36,Adulto,Femenino,Estándar,2026-05-15,Entre Ríos
+USR_00205,Dr(a). Agustín Rodriguez,44,Adulto,Femenino,Premium,2024-01-29,Salta
+USR_00206,Vicente Lopez Ferreyra,74,Senior,Femenino,Básico,2026-06-30,Ciudad Autónoma de Buenos Aires
+USR_00207,Juan Francisco Torres,69,Senior,Masculino,Premium,2023-09-09,Mendoza
+USR_00208,Agostina Emilia Gimenez,54,Adulto,No binario,Premium,2025-12-03,Salta
+USR_00209,Valentina Jazmin Acosta,73,Senior,No binario,Premium,2024-03-19,Ciudad Autónoma de Buenos Aires
+USR_00210,Catalina Villalba Gomez,45,Adulto,Femenino,Básico,2025-10-29,Entre Ríos
+USR_00211,Benjamin Gomez Ferreyra,42,Adulto,Masculino,Premium,2026-05-01,Mendoza
+USR_00212,Lucas Ezequiel Gonzalez,58,Senior,Masculino,Básico,2024-07-16,Salta
+USR_00213,Sr(a). Mateo Martin,31,Adulto,Femenino,Básico,2024-10-28,Tucumán
+USR_00214,Dante Santino Sanchez Roldan,42,Adulto,No binario,Premium,2024-06-30,Ciudad Autónoma de Buenos Aires
+USR_00215,Abril Micaela Cabrera,53,Adulto,Masculino,Premium,2023-11-16,Córdoba
+USR_00216,Uma  Abigail Romero,44,Adulto,Femenino,Básico,2026-06-21,Tucumán
+USR_00217,Benjamin Joaquín Ortiz,26,Joven,No binario,Estándar,2024-12-01,Ciudad Autónoma de Buenos Aires
+USR_00218,Dante Fernandez Sosa,29,Joven,No binario,Básico,2025-05-31,Buenos Aires
+USR_00219,Delfina Mateo Suarez Martin,22,Joven,Masculino,Estándar,2026-03-13,Salta
+USR_00220,Mia Valentina Garcia Perez,21,Joven,Masculino,Estándar,2025-10-29,Córdoba
+USR_00221,Dr(a). Mateo Moyano,55,Adulto,Masculino,Básico,2026-06-07,Entre Ríos
+USR_00222,Guadalupe Benitez Torres,37,Adulto,Masculino,Estándar,2023-11-01,Córdoba
+USR_00223,Pilar Martinez Figueroa,30,Joven,No binario,Básico,2024-01-30,Entre Ríos
+USR_00224,Valentina Lucas Benjamin Gomez,49,Adulto,Masculino,Estándar,2024-09-08,Santa Fe
+USR_00225,Santino Benjamin Coronel,52,Adulto,Masculino,Básico,2024-05-29,Córdoba
+USR_00226,Thiago Lionel Mateo Romero,25,Joven,Masculino,Premium,2024-07-23,Tucumán
+USR_00227,Agostina Acosta Mendez,60,Senior,No binario,Premium,2025-07-21,Ciudad Autónoma de Buenos Aires
+USR_00228,Dr(a). Nahuel Mansilla,70,Senior,Femenino,Premium,2024-04-17,Santa Fe
+USR_00229,Facundo Suarez Vera,68,Senior,Femenino,Estándar,2025-01-10,Salta
+USR_00230,Matilda Hernandez Luna,24,Joven,Femenino,Estándar,2025-01-05,Mendoza
+USR_00231,Maite Martin Valdez,28,Joven,Femenino,Premium,2025-01-19,Mendoza
+USR_00232,Mora Mendez,56,Senior,Femenino,Premium,2025-07-02,Santa Fe
+USR_00233,Sr(a). Jazmín Avila,59,Senior,No binario,Básico,2025-06-23,Entre Ríos
+USR_00234,Morena Vera,57,Senior,Femenino,Estándar,2026-07-10,Ciudad Autónoma de Buenos Aires
+USR_00235,Sofia Godoy,48,Adulto,Masculino,Premium,2024-03-14,Córdoba
+USR_00236,Dr(a). Alma Nuñez,38,Adulto,No binario,Básico,2026-02-06,Córdoba
+USR_00237,Dr(a). Camila Ojeda,34,Adulto,No binario,Premium,2025-11-16,Salta
+USR_00238,Sr(a). Delfina Lopez,39,Adulto,Femenino,Estándar,2023-09-01,Ciudad Autónoma de Buenos Aires
+USR_00239,Zoe Valentina Gimenez Sanchez,37,Adulto,No binario,Premium,2025-05-10,Córdoba
+USR_00240,Salvador Muñoz,19,Joven,Masculino,Estándar,2025-11-29,Santa Fe
+USR_00241,Victoria Lucio Juarez Sosa,70,Senior,Masculino,Premium,2026-05-08,Entre Ríos
+USR_00242,Victoria Luna Paez Ortiz,68,Senior,Femenino,Básico,2024-12-06,Córdoba
+USR_00243,Sr(a). Milena Rodriguez,65,Senior,Masculino,Estándar,2024-08-03,Santa Fe
+USR_00244,Juan Manuel Suarez,67,Senior,No binario,Premium,2023-11-29,Tucumán
+USR_00245,Emma Valentina Quiroga Gimenez,22,Joven,No binario,Premium,2023-10-12,Mendoza
+USR_00246,Dr(a). Máximo Gutierrez,53,Adulto,No binario,Premium,2025-02-14,Mendoza
+USR_00247,Franco Fernandez Rojas,19,Joven,Femenino,Estándar,2026-06-13,Buenos Aires
+USR_00248,Jazmin Godoy,35,Adulto,Masculino,Básico,2023-11-18,Mendoza
+USR_00249,Isabella Martina Gomez,53,Adulto,No binario,Básico,2026-04-21,Mendoza
+USR_00250,Luciano Ortiz,25,Joven,Femenino,Estándar,2025-03-27,Salta
+USR_00251,Sr(a). Tomas Benjamin Ramirez,40,Adulto,No binario,Estándar,2025-03-07,Buenos Aires
+USR_00252,Zoe Valentina Gomez,64,Senior,Femenino,Premium,2024-04-01,Buenos Aires
+USR_00253,Dr(a). Delfina Martinez,63,Senior,No binario,Estándar,2024-06-18,Buenos Aires
+USR_00254,Ian Benjamin Dominguez Vargas,73,Senior,Femenino,Premium,2024-12-03,Salta
+USR_00255,Milo Julieta Nuñez Villalba,49,Adulto,Masculino,Estándar,2025-04-13,Entre Ríos
+USR_00256,Dr(a). Valentin Gomez,71,Senior,Masculino,Estándar,2024-05-03,Santa Fe
+USR_00257,Zoe Valentina Dylan Ezequiel Coronel Dominguez,62,Senior,Masculino,Estándar,2025-12-27,Ciudad Autónoma de Buenos Aires
+USR_00258,Luca Uma  Medina Avila,69,Senior,No binario,Premium,2025-12-04,Entre Ríos
+USR_00259,Rosario Castro,60,Senior,Masculino,Estándar,2023-08-02,Mendoza
+USR_00260,Bruno Lautaro Nahuel Fernandez,42,Adulto,Masculino,Premium,2026-01-22,Entre Ríos
+USR_00261,Felicitas Ciro Blanco,63,Senior,Femenino,Básico,2026-02-06,Salta
+USR_00262,Dr(a). Nicolas Diaz,60,Senior,No binario,Premium,2024-12-30,Tucumán
+USR_00263,Octavio Correa Castillo,73,Senior,Femenino,Estándar,2024-02-26,Mendoza
+USR_00264,Constanza Agustín Torres Lopez,64,Senior,Femenino,Estándar,2026-01-15,Santa Fe
+USR_00265,Juan Cruz Medina Muñoz,21,Joven,Masculino,Estándar,2026-03-29,Buenos Aires
+USR_00266,Thiago Leiva,60,Senior,Femenino,Estándar,2026-04-20,Córdoba
+USR_00267,Candelaria Lautaro Gabriel Perez Cabrera,36,Adulto,Femenino,Básico,2024-02-14,Santa Fe
+USR_00268,Sr(a). Gonzalo Soto,47,Adulto,Femenino,Premium,2025-01-30,Entre Ríos
+USR_00269,Felipe Rodriguez,45,Adulto,No binario,Básico,2024-02-18,Tucumán
+USR_00270,Franco Juan Cruz Avila,30,Joven,Masculino,Estándar,2024-07-19,Entre Ríos
+USR_00271,Uma Romero Ponce,28,Joven,Masculino,Premium,2025-06-10,Córdoba
+USR_00272,Mateo Benjamin Ian Ezequiel Soria,54,Adulto,No binario,Premium,2025-03-27,Córdoba
+USR_00273,Benicio Soto Sanchez,26,Joven,No binario,Básico,2024-12-11,Entre Ríos
+USR_00274,Juan Ignacio Juan Martin Diaz,31,Adulto,No binario,Premium,2025-10-21,Salta
+USR_00275,Sr(a). Joaquin Cabrera,73,Senior,Masculino,Estándar,2025-08-14,Buenos Aires
+USR_00276,Joaquin Benicio Peralta,24,Joven,No binario,Estándar,2025-05-24,Buenos Aires
+USR_00277,Sr(a). Lucio Nuñez,63,Senior,Masculino,Estándar,2026-03-08,Ciudad Autónoma de Buenos Aires
+USR_00278,Mateo Benjamin Mateo Benitez Ramirez,33,Adulto,Femenino,Estándar,2024-06-16,Ciudad Autónoma de Buenos Aires
+USR_00279,Sr(a). Santino Nuñez,39,Adulto,No binario,Básico,2025-07-26,Buenos Aires
+USR_00280,Franco Cabrera Coronel,37,Adulto,No binario,Básico,2026-04-23,Córdoba
+USR_00281,Juan Martin Benitez Garcia,27,Joven,Femenino,Estándar,2024-03-11,Tucumán
+USR_00282,Zoe Lautaro Fernandez Ojeda,30,Joven,Femenino,Premium,2025-10-12,Mendoza
+USR_00283,Dr(a). Santiago Paz,72,Senior,Femenino,Básico,2024-11-14,Salta
+USR_00284,Simon Maia Gonzalez,33,Adulto,Femenino,Premium,2024-11-26,Tucumán
+USR_00285,Julieta Julian Maldonado,64,Senior,Masculino,Básico,2024-03-02,Mendoza
+USR_00286,Juan Ignacio Renata Benitez Gonzalez,51,Adulto,No binario,Estándar,2025-06-03,Entre Ríos
+USR_00287,Facundo Peralta,59,Senior,No binario,Premium,2024-08-19,Tucumán
+USR_00288,Dante Valentina Juarez Perez,35,Adulto,Masculino,Básico,2026-04-11,Entre Ríos
+USR_00289,Thiago Lionel Peralta,37,Adulto,Masculino,Estándar,2025-08-01,Santa Fe
+USR_00290,Emiliano Thiago Benjamin Mansilla Gonzalez,57,Senior,No binario,Básico,2025-03-10,Tucumán
+USR_00291,Benjamin Alvarez Pereyra,19,Joven,Femenino,Básico,2024-02-26,Salta
+USR_00292,Lola Diaz Flores,54,Adulto,Masculino,Premium,2025-12-16,Entre Ríos
+USR_00293,Santiago Benjamin Lola Navarro Fernandez,71,Senior,Femenino,Básico,2024-10-23,Córdoba
+USR_00294,Lucas Vera Lopez,45,Adulto,Masculino,Estándar,2026-03-24,Tucumán
+USR_00295,Sr(a). Maximo Gonzalez,39,Adulto,Masculino,Estándar,2023-11-04,Mendoza
+USR_00296,Mateo Maldonado,30,Joven,Masculino,Premium,2025-04-25,Córdoba
+USR_00297,Ignacio Guadalupe Nuñez Juarez,23,Joven,Masculino,Básico,2026-03-19,Mendoza
+USR_00298,Juan Cruz Coronel Martinez,54,Adulto,No binario,Básico,2024-05-08,Tucumán
+USR_00299,Sr(a). Lucas Acosta,20,Joven,No binario,Básico,2026-05-14,Córdoba
+USR_00300,Mateo Mendez,63,Senior,Femenino,Básico,2026-03-18,Buenos Aires
+USR_00301,Luana Duarte Gonzalez,21,Joven,No binario,Premium,2024-12-13,Salta
+USR_00302,Renzo Benjamin Peralta Ojeda,74,Senior,No binario,Premium,2026-02-13,Buenos Aires
+USR_00303,Emma Victoria Ortiz,49,Adulto,No binario,Premium,2024-05-08,Salta
+USR_00304,Rosario Vera Aguirre,52,Adulto,Femenino,Estándar,2025-03-18,Tucumán
+USR_00305,Ignacio Ciro Torres Ruiz,23,Joven,Masculino,Premium,2023-08-25,Buenos Aires
+USR_00306,Antonella Alma Suarez,69,Senior,Femenino,Básico,2024-09-02,Salta
+USR_00307,Luciano Escobar,18,Joven,No binario,Estándar,2026-05-03,Mendoza
+USR_00308,Delfina Castro Vargas,53,Adulto,Femenino,Básico,2025-10-15,Ciudad Autónoma de Buenos Aires
+USR_00309,Mateo Joaquin Acuña Romero,31,Adulto,Femenino,Premium,2023-08-20,Santa Fe
+USR_00310,Dr(a). Giuliana Diaz,57,Senior,Masculino,Estándar,2024-05-21,Salta
+USR_00311,Benjamin Francisca Ortiz Gonzalez,68,Senior,Masculino,Estándar,2024-12-14,Santa Fe
+USR_00312,Juan Cruz Fernandez,61,Senior,Masculino,Básico,2024-05-27,Tucumán
+USR_00313,Paloma Flores,64,Senior,Masculino,Premium,2025-10-20,Salta
+USR_00314,Valentina  Rodriguez,67,Senior,Femenino,Estándar,2025-12-02,Santa Fe
+USR_00315,Gonzalo Suarez Pereyra,62,Senior,No binario,Estándar,2024-04-13,Buenos Aires
+USR_00316,Dr(a). Ramiro Godoy,18,Joven,No binario,Estándar,2024-04-20,Salta
+USR_00317,Matias Paula Paz,27,Joven,Femenino,Básico,2024-10-16,Ciudad Autónoma de Buenos Aires
+USR_00318,Bianca Francesca Fernandez Torres,32,Adulto,Masculino,Premium,2023-12-15,Salta
+USR_00319,Emanuel Nina Fernandez,38,Adulto,No binario,Premium,2024-03-27,Buenos Aires
+USR_00320,Sr(a). Valentina Duarte,75,Senior,Masculino,Premium,2025-11-23,Santa Fe
+USR_00321,Benjamin Diaz Pereyra,74,Senior,Femenino,Premium,2026-03-07,Entre Ríos
+USR_00322,Guillermina Velazquez Vega,53,Adulto,Femenino,Estándar,2024-09-18,Tucumán
+USR_00323,Giuliana Maldonado,36,Adulto,Masculino,Estándar,2024-04-24,Santa Fe
+USR_00324,Pilar Lautaro Benjamin Rojas Herrera,64,Senior,Masculino,Básico,2025-11-22,Córdoba
+USR_00325,Alma Mia Lopez,39,Adulto,No binario,Premium,2024-09-24,Córdoba
+USR_00326,Lucía Paz Mansilla,25,Joven,No binario,Estándar,2024-09-18,Ciudad Autónoma de Buenos Aires
+USR_00327,Dr(a). Francesca Medina,57,Senior,Femenino,Básico,2024-09-14,Ciudad Autónoma de Buenos Aires
+USR_00328,Dr(a). Guillermina Ponce,24,Joven,No binario,Básico,2025-09-28,Buenos Aires
+USR_00329,Tiziano Benjamin Correa,47,Adulto,Femenino,Estándar,2025-04-09,Tucumán
+USR_00330,Ciro Mateo Ezequiel Rodriguez,35,Adulto,No binario,Premium,2024-05-27,Entre Ríos
+USR_00331,Juan Pablo Rodriguez,63,Senior,Masculino,Premium,2024-06-29,Buenos Aires
+USR_00332,Francesca Mendez,61,Senior,Masculino,Estándar,2024-10-23,Entre Ríos
+USR_00333,Santino Benjamin Morales,52,Adulto,Masculino,Estándar,2025-11-01,Tucumán
+USR_00334,Tiziano Manuel Soto Gonzalez,20,Joven,No binario,Estándar,2024-06-03,Mendoza
+USR_00335,Alma Navarro,55,Adulto,Femenino,Básico,2025-07-19,Ciudad Autónoma de Buenos Aires
+USR_00336,Victoria Martin,43,Adulto,Femenino,Estándar,2026-02-06,Santa Fe
+USR_00337,Milena Leiva,46,Adulto,Masculino,Estándar,2026-02-16,Ciudad Autónoma de Buenos Aires
+USR_00338,Dr(a). Vicente Flores,35,Adulto,Masculino,Premium,2025-05-11,Tucumán
+USR_00339,Lourdes Martinez Cabrera,73,Senior,No binario,Estándar,2024-02-19,Santa Fe
+USR_00340,Juan Ignacio Mia Sanchez,41,Adulto,Masculino,Básico,2024-05-11,Mendoza
+USR_00341,Martina Perez,26,Joven,Femenino,Premium,2024-08-03,Santa Fe
+USR_00342,Sr(a). Dante Muñoz,71,Senior,No binario,Básico,2025-10-01,Santa Fe
+USR_00343,Nahiara Jazmin Fernandez,47,Adulto,Masculino,Premium,2025-04-25,Santa Fe
+USR_00344,Delfina Luna Romero,37,Adulto,Masculino,Básico,2023-11-10,Ciudad Autónoma de Buenos Aires
+USR_00345,Francesca Ayala,36,Adulto,Masculino,Estándar,2025-10-08,Santa Fe
+USR_00346,Juan Bautista Rodriguez,27,Joven,No binario,Estándar,2025-04-22,Córdoba
+USR_00347,Camilo Thiago Benjamin Torres Avila,31,Adulto,No binario,Estándar,2024-05-30,Santa Fe
+USR_00348,Simon Ramirez,20,Joven,Masculino,Básico,2025-03-20,Entre Ríos
+USR_00349,Martina Thiago Benjamin Rodriguez,53,Adulto,Femenino,Básico,2025-11-13,Tucumán
+USR_00350,Jazmin Amparo Maldonado,21,Joven,No binario,Estándar,2026-04-29,Entre Ríos
+USR_00351,Sr(a). Juana Aguirre,28,Joven,No binario,Estándar,2023-08-04,Tucumán
+USR_00352,Malena Bravo Navarro,24,Joven,Femenino,Básico,2025-09-19,Entre Ríos
+USR_00353,Alma Mia Escobar,63,Senior,Masculino,Estándar,2025-07-13,Ciudad Autónoma de Buenos Aires
+USR_00354,Benjamin Francesco Fernandez Gutierrez,48,Adulto,No binario,Premium,2023-09-30,Santa Fe
+USR_00355,Sr(a). Benjamin Aguirre,54,Adulto,Masculino,Estándar,2025-10-15,Salta
+USR_00356,Dr(a). Josefina Molina,67,Senior,Femenino,Premium,2024-05-19,Mendoza
+USR_00357,Valentina Lautaro Gabriel Rodriguez,41,Adulto,Femenino,Premium,2024-10-02,Santa Fe
+USR_00358,Ivan Olivera Acosta,51,Adulto,No binario,Premium,2024-10-25,Salta
+USR_00359,Thiago Benjamin Torres Diaz,18,Joven,Femenino,Estándar,2023-12-12,Tucumán
+USR_00360,Dr(a). Juan Sanchez,33,Adulto,Masculino,Estándar,2025-03-07,Tucumán
+USR_00361,Lucas Luana Martinez Fernandez,48,Adulto,Masculino,Básico,2026-05-13,Tucumán
+USR_00362,Felipe Ignacio Herrera Suarez,31,Adulto,Masculino,Premium,2024-08-13,Salta
+USR_00363,Amparo Carrizo,23,Joven,No binario,Premium,2025-03-13,Buenos Aires
+USR_00364,Valentina Garcia Diaz,67,Senior,Masculino,Estándar,2025-03-20,Salta
+USR_00365,Dr(a). Uma  Avila,23,Joven,Femenino,Básico,2025-05-13,Córdoba
+USR_00366,Sofia Rodriguez Perez,24,Joven,No binario,Básico,2023-11-29,Mendoza
+USR_00367,Joaquín Benjamin Gutierrez Caceres,19,Joven,No binario,Premium,2026-03-18,Santa Fe
+USR_00368,Ema Mateo Medina,52,Adulto,Masculino,Estándar,2024-08-01,Santa Fe
+USR_00369,Augusto Perez Mansilla,49,Adulto,Masculino,Premium,2025-11-23,Buenos Aires
+USR_00370,Jeronimo Zoe Jazmin Guzman Martinez,58,Senior,Masculino,Básico,2026-04-09,Córdoba
+USR_00371,Zoe Valentina Acosta,67,Senior,Femenino,Premium,2025-05-28,Mendoza
+USR_00372,Pilar Mateo Pereyra Gonzalez,32,Adulto,Femenino,Premium,2025-07-11,Tucumán
+USR_00373,Isabella Morales,70,Senior,Masculino,Básico,2025-11-25,Salta
+USR_00374,Juana Lopez Molina,60,Senior,Masculino,Estándar,2025-05-27,Buenos Aires
+USR_00375,Bautista Ruiz,50,Adulto,No binario,Premium,2024-11-02,Santa Fe
+USR_00376,Thiago Benjamin Cruz,26,Joven,Masculino,Estándar,2024-02-20,Tucumán
+USR_00377,Justina Thiago Leonel Godoy Ramirez,39,Adulto,Masculino,Estándar,2026-06-16,Santa Fe
+USR_00378,Dr(a). Emilia Campos,20,Joven,Masculino,Estándar,2025-11-19,Tucumán
+USR_00379,Josefina Acosta,34,Adulto,Masculino,Estándar,2025-09-03,Mendoza
+USR_00380,Martina Mateo Martinez Diaz,19,Joven,No binario,Premium,2025-12-17,Buenos Aires
+USR_00381,Joaquin Emilia Alvarez Ramirez,31,Adulto,No binario,Premium,2023-10-06,Tucumán
+USR_00382,Franco Bruno Moyano,56,Senior,No binario,Premium,2025-01-29,Entre Ríos
+USR_00383,Thiago Francisco Ferreyra,49,Adulto,Femenino,Básico,2024-12-02,Córdoba
+USR_00384,Dr(a). Tiziano Franco,73,Senior,Masculino,Premium,2024-05-02,Buenos Aires
+USR_00385,Santiago Nicolas Ruiz Garcia,46,Adulto,No binario,Premium,2025-08-12,Santa Fe
+USR_00386,Sr(a). Milo Romero,47,Adulto,No binario,Básico,2023-08-16,Santa Fe
+USR_00387,Juan Pablo Guadalupe Aguirre Martinez,51,Adulto,Femenino,Premium,2025-01-30,Salta
+USR_00388,Dr(a). Santino Martinez,42,Adulto,Femenino,Premium,2025-08-05,Santa Fe
+USR_00389,Sofia Martinez Caceres,20,Joven,Femenino,Estándar,2024-08-19,Ciudad Autónoma de Buenos Aires
+USR_00390,Maia Thiago Diaz Correa,21,Joven,No binario,Premium,2026-03-28,Entre Ríos
+USR_00391,Isabella Gonzalez Muñoz,39,Adulto,No binario,Estándar,2024-04-06,Córdoba
+USR_00392,Lautaro Juana Lopez,50,Adulto,No binario,Básico,2026-01-26,Mendoza
+USR_00393,Malena Diaz,64,Senior,No binario,Estándar,2024-12-25,Buenos Aires
+USR_00394,Juan David Milena Medina,30,Joven,No binario,Premium,2026-07-20,Buenos Aires
+USR_00395,Sr(a). Benjamin Martinez,44,Adulto,Masculino,Premium,2024-12-08,Mendoza
+USR_00396,Mateo Benjamin Escobar Rodriguez,46,Adulto,Masculino,Estándar,2024-07-14,Entre Ríos
+USR_00397,Bautista Flores Valdez,71,Senior,Femenino,Básico,2026-07-11,Salta
+USR_00398,Catalina Mia Jazmin Perez,60,Senior,Femenino,Premium,2024-03-17,Entre Ríos
+USR_00399,Tomas Rodriguez Ledesma,21,Joven,Masculino,Básico,2024-01-13,Entre Ríos
+USR_00400,Lautaro Lucero,20,Joven,No binario,Estándar,2025-07-29,Entre Ríos
+USR_00401,Giovanni Rodriguez Sanchez,24,Joven,No binario,Estándar,2026-02-21,Entre Ríos
+USR_00402,Bautista Luna Gutierrez,34,Adulto,Femenino,Básico,2023-10-30,Ciudad Autónoma de Buenos Aires
+USR_00403,Sr(a). Fausto Cordoba,59,Senior,Femenino,Premium,2024-12-09,Mendoza
+USR_00404,Alma Thiago Benjamin Perez Dominguez,72,Senior,No binario,Estándar,2024-05-09,Entre Ríos
+USR_00405,Francisca Felipe Fernandez Romero,71,Senior,Masculino,Básico,2024-10-22,Tucumán
+USR_00406,Antonia Silva Aguirre,70,Senior,Masculino,Básico,2024-07-11,Tucumán
+USR_00407,Olivia Perez Lopez,51,Adulto,Masculino,Básico,2026-04-12,Salta
+USR_00408,Tomàs Roldan,44,Adulto,No binario,Básico,2024-03-21,Santa Fe
+USR_00409,Dr(a). Nahiara Carrizo,32,Adulto,Femenino,Básico,2024-01-23,Salta
+USR_00410,Felipe Gutierrez Ojeda,46,Adulto,No binario,Premium,2024-09-10,Buenos Aires
+USR_00411,Tiziano Juan Martin Gimenez,70,Senior,Femenino,Básico,2025-11-19,Entre Ríos
+USR_00412,Agustin Tobias Gutierrez,20,Joven,Masculino,Básico,2024-11-09,Buenos Aires
+USR_00413,Dr(a). Santino Nicolas Martinez,40,Adulto,Femenino,Básico,2026-01-28,Mendoza
+USR_00414,Antonia Ambar Gonzalez Lopez,55,Adulto,Femenino,Básico,2024-07-25,Santa Fe
+USR_00415,Santiago Mateo Romero Moyano,25,Joven,Masculino,Básico,2023-08-26,Buenos Aires
+USR_00416,Dr(a). Pedro Chavez,67,Senior,No binario,Estándar,2026-07-08,Ciudad Autónoma de Buenos Aires
+USR_00417,Joaquin Martina Martinez Hernandez,72,Senior,No binario,Básico,2025-07-01,Entre Ríos
+USR_00418,Valentin Roldan Torres,70,Senior,Masculino,Básico,2026-07-08,Entre Ríos
+USR_00419,Constanza Ana Paula Fernandez,69,Senior,Masculino,Básico,2026-03-07,Córdoba
+USR_00420,Martina Angelina Rios,46,Adulto,Masculino,Básico,2023-10-16,Tucumán
+USR_00421,Maia Gomez,65,Senior,Masculino,Básico,2026-06-21,Tucumán
+USR_00422,Morena Emma Ramirez,31,Adulto,Femenino,Básico,2024-06-14,Salta
+USR_00423,Juan Manuel Dante Navarro Rodriguez,67,Senior,No binario,Premium,2026-06-12,Ciudad Autónoma de Buenos Aires
+USR_00424,Benjamin Luisana Mendez Gonzalez,54,Adulto,Masculino,Estándar,2025-09-01,Buenos Aires
+USR_00425,Dr(a). Genaro Acosta,35,Adulto,No binario,Básico,2026-04-19,Santa Fe
+USR_00426,Thiago Nicolas Thiago Coronel,70,Senior,Femenino,Estándar,2026-05-25,Mendoza
+USR_00427,Santino Gabriel Alvarez,71,Senior,Masculino,Estándar,2024-05-03,Santa Fe
+USR_00428,Joaquín Rodriguez Nuñez,69,Senior,No binario,Básico,2026-02-01,Entre Ríos
+USR_00429,Maximo Julian Ortiz Perez,35,Adulto,Femenino,Estándar,2026-05-08,Buenos Aires
+USR_00430,Tiziano Valentin Dominguez Chavez,75,Senior,Femenino,Estándar,2025-11-08,Salta
+USR_00431,Thiago Emanuel Rodriguez,19,Joven,Femenino,Premium,2025-08-05,Ciudad Autónoma de Buenos Aires
+USR_00432,Juan Cruz Vazquez Romero,27,Joven,Masculino,Básico,2026-04-14,Ciudad Autónoma de Buenos Aires
+USR_00433,Martina Ruiz,33,Adulto,No binario,Básico,2025-10-22,Córdoba
+USR_00434,Ignacio Jazmin Muñoz,66,Senior,Femenino,Premium,2025-09-29,Entre Ríos
+USR_00435,Simon Fernandez,24,Joven,Femenino,Estándar,2026-06-30,Salta
+USR_00436,Dr(a). Santiago Aguero,19,Joven,No binario,Básico,2024-10-22,Tucumán
+USR_00437,Dr(a). Thiago Benjamin Ramos,61,Senior,Masculino,Básico,2023-07-25,Mendoza
+USR_00438,Josefina Lorenzo Fernandez,39,Adulto,Femenino,Estándar,2024-08-21,Tucumán
+USR_00439,Sr(a). Juan Martinez,46,Adulto,No binario,Estándar,2026-03-04,Ciudad Autónoma de Buenos Aires
+USR_00440,Francisco Jazmin Martin Bravo,30,Joven,No binario,Básico,2024-11-20,Córdoba
+USR_00441,Thiago Benitez,32,Adulto,No binario,Estándar,2025-05-30,Salta
+USR_00442,Martin Lucas Carrizo Diaz,64,Senior,No binario,Básico,2026-05-11,Mendoza
+USR_00443,Dr(a). Juan Cruz Lopez,30,Joven,Femenino,Estándar,2024-02-24,Córdoba
+USR_00444,Luciano Paz Bustos,59,Senior,No binario,Estándar,2023-10-24,Entre Ríos
+USR_00445,Sol Ciro Caceres,59,Senior,Masculino,Estándar,2023-10-07,Tucumán
+USR_00446,Juan Ignacio Villalba,65,Senior,Femenino,Estándar,2026-05-20,Tucumán
+USR_00447,Dr(a). Lourdes Diaz,61,Senior,Femenino,Estándar,2025-05-20,Buenos Aires
+USR_00448,Benjamin Lourdes Diaz,75,Senior,Masculino,Estándar,2025-08-10,Entre Ríos
+USR_00449,Victoria Gabriel Martinez Garcia,18,Joven,Femenino,Premium,2024-08-31,Salta
+USR_00450,Paloma Sol Bravo Aguero,33,Adulto,Femenino,Estándar,2026-05-17,Buenos Aires
+USR_00451,Santino Ignacio Godoy,74,Senior,Masculino,Estándar,2026-01-15,Santa Fe
+USR_00452,Lautaro Benjamin Arias Suarez,49,Adulto,Femenino,Estándar,2024-06-26,Córdoba
+USR_00453,Mateo Thiago Agustin Flores Lucero,72,Senior,No binario,Premium,2025-11-27,Santa Fe
+USR_00454,Sr(a). Simon Gomez,44,Adulto,Femenino,Estándar,2025-01-20,Buenos Aires
+USR_00455,Josefina Dylan Benjamin Gutierrez,40,Adulto,Masculino,Estándar,2026-03-14,Buenos Aires
+USR_00456,Sr(a). Emanuel Paez,21,Joven,Masculino,Premium,2026-06-22,Mendoza
+USR_00457,Sr(a). Santiago Valdez,56,Senior,No binario,Estándar,2025-07-21,Córdoba
+USR_00458,Sr(a). Luz Milagros Medina,55,Adulto,No binario,Premium,2023-12-18,Buenos Aires
+USR_00459,Bruno Thiago Joaquin Dominguez,69,Senior,No binario,Estándar,2025-01-31,Córdoba
+USR_00460,Mateo Valentin Maximo Caceres,67,Senior,Femenino,Estándar,2026-07-08,Tucumán
+USR_00461,Constantino Bianca Molina,30,Joven,No binario,Básico,2024-02-07,Santa Fe
+USR_00462,Dr(a). Agustin Gomez,31,Adulto,Masculino,Básico,2024-12-07,Mendoza
+USR_00463,Dr(a). Paula Diaz,40,Adulto,Femenino,Estándar,2024-04-28,Mendoza
+USR_00464,Camila Gomez Herrera,58,Senior,Femenino,Premium,2025-03-18,Córdoba
+USR_00465,Emma Pereyra Cardozo,64,Senior,Masculino,Básico,2025-11-25,Ciudad Autónoma de Buenos Aires
+USR_00466,Francisco Nuñez Suarez,29,Joven,Femenino,Estándar,2024-09-19,Buenos Aires
+USR_00467,Sr(a). Agustina Luna,59,Senior,Femenino,Premium,2024-04-27,Córdoba
+USR_00468,Juan Bautista Angel Gabriel Olivera,60,Senior,No binario,Estándar,2024-08-09,Buenos Aires
+USR_00469,Dr(a). Renata Rodriguez,68,Senior,Femenino,Básico,2025-03-29,Santa Fe
+USR_00470,Joaquin Diaz,72,Senior,No binario,Premium,2024-09-02,Mendoza
+USR_00471,Emma Farias Villalba,48,Adulto,Masculino,Estándar,2024-11-02,Salta
+USR_00472,Maximo Fernandez,38,Adulto,Masculino,Premium,2026-05-19,Salta
+USR_00473,Sr(a). Delfina Navarro,49,Adulto,Femenino,Premium,2025-07-15,Ciudad Autónoma de Buenos Aires
+USR_00474,Juan Cruz Maite Ponce,50,Adulto,Masculino,Premium,2024-07-16,Salta
+USR_00475,Felipe Cordoba Mendoza,43,Adulto,Femenino,Básico,2024-09-16,Córdoba
+USR_00476,Augusto Rios,22,Joven,Masculino,Premium,2026-06-28,Mendoza
+USR_00477,Thiago Emanuel Lola Moreno Suarez,74,Senior,Femenino,Premium,2023-10-17,Salta
+USR_00478,Simon Lopez Ledesma,34,Adulto,No binario,Estándar,2024-04-10,Buenos Aires
+USR_00479,Camilo Benjamin Aguero Leiva,22,Joven,Masculino,Premium,2024-05-31,Tucumán
+USR_00480,Lautaro Ezequiel Benjamin Rodriguez,65,Senior,No binario,Premium,2024-04-25,Santa Fe
+USR_00481,Dr(a). Agustin Silva,62,Senior,Masculino,Básico,2023-10-16,Salta
+USR_00482,Alma Mora Paz,72,Senior,No binario,Premium,2024-07-29,Córdoba
+USR_00483,Sr(a). Valentino Luna,49,Adulto,No binario,Estándar,2026-04-02,Córdoba
+USR_00484,Jazmin Medina,52,Adulto,Femenino,Premium,2025-04-29,Tucumán
+USR_00485,Uma Mendoza Velazquez,33,Adulto,No binario,Básico,2025-04-20,Entre Ríos
+USR_00486,Alma Mia Mateo Agustin Lopez,42,Adulto,No binario,Estándar,2026-03-27,Ciudad Autónoma de Buenos Aires
+USR_00487,Ambar Sanchez Acosta,37,Adulto,Femenino,Premium,2025-01-24,Tucumán
+USR_00488,Jazmin Alexander Perez Fernandez,27,Joven,No binario,Estándar,2026-07-18,Buenos Aires
+USR_00489,Dr(a). Lautaro Gomez,69,Senior,No binario,Premium,2025-12-12,Tucumán
+USR_00490,Paula Valdez,56,Senior,Femenino,Premium,2024-03-10,Mendoza
+USR_00491,Santino Godoy,38,Adulto,No binario,Premium,2025-11-24,Santa Fe
+USR_00492,Martina Mateo Agustin Flores,40,Adulto,Femenino,Estándar,2025-01-13,Mendoza
+USR_00493,Bautista Juan Manuel Godoy Escobar,43,Adulto,No binario,Premium,2024-07-26,Ciudad Autónoma de Buenos Aires
+USR_00494,Juan Bautista Castillo,54,Adulto,Masculino,Premium,2026-05-16,Santa Fe
+USR_00495,Santiago Sanchez,55,Adulto,Femenino,Estándar,2024-01-13,Entre Ríos
+USR_00496,Lucas Martina Garcia Cabrera,37,Adulto,Femenino,Estándar,2024-11-26,Ciudad Autónoma de Buenos Aires
+USR_00497,Lucas Ezequiel Aguero,59,Senior,Masculino,Básico,2025-08-29,Santa Fe
+USR_00498,Mateo Gomez,25,Joven,No binario,Estándar,2026-01-10,Entre Ríos
+USR_00499,Mia Thiago Nahuel Gomez Gonzalez,69,Senior,Masculino,Básico,2025-10-10,Buenos Aires
+USR_00500,Luz Milagros Silva Gonzalez,38,Adulto,Masculino,Estándar,2026-05-04,Santa Fe

@@ -1,3 +1,4 @@
+# Se realiza un analisis exploratorio del dataset de la ciudad de bsas.
 import json
 
 with open("barrios.geojson", "r", encoding="utf-8") as f:

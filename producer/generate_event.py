@@ -2,6 +2,7 @@ import json
 import uuid
 import random
 import time
+import csv
 from datetime import datetime, timezone
 from kafka import KafkaProducer
 
@@ -43,20 +44,25 @@ def get_sleep_interval(base_interval: float = 2.0) -> float:
     return base_interval / weight
 
 
+def load_user_ids(csv_path: str = "../data/users/users.csv") -> list[str]:
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        return [row["user_id"] for row in reader]
+
+
 def main():
     producer = KafkaProducer(
         bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
         value_serializer=lambda v: json.dumps(v).encode("utf-8"),
     )
 
-    # TODO (Tarea 7): reemplazar por user_ids reales del dataset de usuarios
-    test_user_ids = [f"USR_{i:05d}" for i in range(1, 11)]
-
+    user_ids = load_user_ids()
+    print(f"Cargados {len(user_ids)} user_ids desde el dataset de usuarios")
     print(f"Publicando eventos en el tópico '{KAFKA_TOPIC}'... (Ctrl+C para detener)")
 
     try:
         while True:
-            event = generate_event(test_user_ids)
+            event = generate_event(user_ids)
             producer.send(KAFKA_TOPIC, value=event)
             print(f"Enviado: {event}")
 
