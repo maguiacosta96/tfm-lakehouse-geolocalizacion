@@ -230,7 +230,7 @@ venv/
 
 # Docker
 docker/volumes/
-
+docker/logs/
 # Spark
 spark-warehouse/
 metastore_db/

@@ -152,8 +152,8 @@ services:
       AIRFLOW__CORE__FERNET_KEY: "46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLt0nfdstg="
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     volumes:
-      - ./dags:/opt/airflow/dags
-      - ./logs:/opt/airflow/logs
+      - ../dags:/opt/airflow/dags
+      - ../docker/logs:/opt/airflow/logs
     command: webserver
 
   airflow-scheduler:
@@ -169,7 +169,7 @@ services:
       AIRFLOW__CORE__FERNET_KEY: "46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLt0nfdstg="
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     volumes:
-      - ./dags:/opt/airflow/dags
-      - ./logs:/opt/airflow/logs
+      - ../dags:/opt/airflow/dags
+      - ../docker/logs:/opt/airflow/logs
     command: scheduler
 
