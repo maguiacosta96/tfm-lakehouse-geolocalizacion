@@ -46,4 +46,41 @@ if invalid_count > 0:
         .save("s3a://silver/rejected_schema")
     print("Eventos inválidos guardados en s3a://silver/rejected_schema")
 
+# 4. Validación geográfica
+CABA_LAT_RANGE = (-34.70, -34.53)
+CABA_LON_RANGE = (-58.53, -58.35)
+
+geo_valid_df = valid_df.filter(
+    (col("latitude").between(*CABA_LAT_RANGE)) &
+    (col("longitude").between(*CABA_LON_RANGE))
+)
+geo_invalid_df = valid_df.filter(
+    ~((col("latitude").between(*CABA_LAT_RANGE)) &
+      (col("longitude").between(*CABA_LON_RANGE)))
+)
+
+geo_valid_count = geo_valid_df.count()
+geo_invalid_count = geo_invalid_df.count()
+
+print(f"Eventos válidos geográficamente (dentro de CABA): {geo_valid_count}")
+print(f"Eventos fuera de rango geográfico: {geo_invalid_count}")
+
+if geo_invalid_count > 0:
+    geo_invalid_df.write \
+        .format("delta") \
+        .mode("append") \
+        .save("s3a://silver/rejected_geo")
+    print("Eventos fuera de rango guardados en s3a://silver/rejected_geo")
+
+# 5. Deduplicación por event_id
+deduped_df = geo_valid_df.dropDuplicates(["event_id"])
+
+deduped_count = deduped_df.count()
+duplicates_removed = geo_valid_count - deduped_count
+
+print(f"Eventos después de deduplicar: {deduped_count}")
+print(f"Duplicados eliminados: {duplicates_removed}")
+
+deduped_df.show(5, truncate=False)
+
 spark.stop()
