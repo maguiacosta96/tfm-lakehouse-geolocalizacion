@@ -83,4 +83,15 @@ print(f"Duplicados eliminados: {duplicates_removed}")
 
 deduped_df.show(5, truncate=False)
 
+from pyspark.sql.functions import to_date, hour as hour_fn, dayofweek, date_format
+
+# 6. Normalización temporal: extraer campos derivados
+silver_df = deduped_df \
+    .withColumn("fecha", to_date(col("event_ts"))) \
+    .withColumn("hora_del_dia", hour_fn(col("event_ts"))) \
+    .withColumn("dia_semana", date_format(col("event_ts"), "EEEE"))  # nombre del día en inglés por defecto
+
+print("Muestra con campos temporales derivados:")
+silver_df.select("event_id", "event_ts", "fecha", "hora_del_dia", "dia_semana").show(5, truncate=False)
+
 spark.stop()
