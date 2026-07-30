@@ -93,5 +93,35 @@ silver_df = deduped_df \
 
 print("Muestra con campos temporales derivados:")
 silver_df.select("event_id", "event_ts", "fecha", "hora_del_dia", "dia_semana").show(5, truncate=False)
+# 7. Join con dataset de usuarios
+users_df = spark.read.csv(
+    "/opt/data/users/users.csv",
+    header=True,
+    inferSchema=True
+)
+
+print(f"Total de usuarios cargados: {users_df.count()}")
+
+silver_with_users_df = silver_df.join(users_df, on="user_id", how="left")
+
+print("Muestra con datos de usuario incorporados:")
+silver_with_users_df.select(
+    "event_id", "user_id", "nombre", "segmento", "rango_etario", "fecha", "hora_del_dia"
+).show(5, truncate=False)
+
+# Verificar que no haya eventos sin match de usuario (user_id inexistente en el dataset)
+unmatched_count = silver_with_users_df.filter(col("nombre").isNull()).count()
+print(f"Eventos sin usuario asociado: {unmatched_count}")
+
+# 8. Escritura final en capa Silver, particionada por fecha y barrio
+# (el campo "barrio" todavía no existe -- se agrega en la Tarea 14, enriquecimiento geoespacial)
+# Por ahora particionamos solo por fecha
+silver_with_users_df.write \
+    .format("delta") \
+    .mode("append") \
+    .partitionBy("fecha") \
+    .save("s3a://silver/geo_events_enriched")
+
+print("Escritura en Silver completada.")
 
 spark.stop()
