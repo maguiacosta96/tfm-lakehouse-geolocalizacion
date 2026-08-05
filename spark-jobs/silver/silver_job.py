@@ -1,5 +1,41 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
+import geopandas as gpd
+from shapely.geometry import Point
+from pyspark.sql.functions import pandas_udf
+from pyspark.sql.types import StringType
+import pandas as pd
+
+# Cargar el GeoJSON una sola vez (se serializa a cada worker)
+BARRIOS_GDF = gpd.read_file("/opt/data/geojson/barrios.geojson", engine="pyogrio")
+
+@pandas_udf(StringType())
+def get_barrio(lat_series: pd.Series, lon_series: pd.Series) -> pd.Series:
+    def find_barrio(lat, lon):
+        if lat is None or lon is None:
+            return None
+        point = Point(lon, lat)  # OJO: Point(longitud, latitud)
+        match = BARRIOS_GDF[BARRIOS_GDF.contains(point)]
+        if not match.empty:
+            return match.iloc[0]["nombre"]
+        return None
+    
+    return pd.Series([find_barrio(lat, lon) for lat, lon in zip(lat_series, lon_series)])
+
+
+@pandas_udf(StringType())
+def get_comuna(lat_series: pd.Series, lon_series: pd.Series) -> pd.Series:
+    def find_comuna(lat, lon):
+        if lat is None or lon is None:
+            return None
+        point = Point(lon, lat)
+        match = BARRIOS_GDF[BARRIOS_GDF.contains(point)]
+        if not match.empty:
+            return str(match.iloc[0]["comuna"])
+        return None
+    
+    return pd.Series([find_comuna(lat, lon) for lat, lon in zip(lat_series, lon_series)])
+
 
 spark = SparkSession.builder \
     .appName("SilverLayerJob") \
@@ -113,13 +149,24 @@ silver_with_users_df.select(
 unmatched_count = silver_with_users_df.filter(col("nombre").isNull()).count()
 print(f"Eventos sin usuario asociado: {unmatched_count}")
 
+# 7.5. Enriquecimiento geoespacial: asignar barrio y comuna
+silver_with_geo_df = silver_with_users_df \
+    .withColumn("barrio", get_barrio(col("latitude"), col("longitude"))) \
+    .withColumn("comuna", get_comuna(col("latitude"), col("longitude")))
+
+print("Muestra con barrio/comuna asignados:")
+silver_with_geo_df.select("event_id", "latitude", "longitude", "barrio", "comuna").show(5, truncate=False)
+
+# Contar eventos no georreferenciables (point-in-polygon sin match)
+no_geo_count = silver_with_geo_df.filter(col("barrio").isNull()).count()
+print(f"Eventos no georreferenciables: {no_geo_count}")
 # 8. Escritura final en capa Silver, particionada por fecha y barrio
 # (el campo "barrio" todavía no existe -- se agrega en la Tarea 14, enriquecimiento geoespacial)
 # Por ahora particionamos solo por fecha
-silver_with_users_df.write \
+silver_with_geo_df.write \
     .format("delta") \
     .mode("append") \
-    .partitionBy("fecha") \
+    .partitionBy("fecha", "barrio") \
     .save("s3a://silver/geo_events_enriched")
 
 print("Escritura en Silver completada.")
