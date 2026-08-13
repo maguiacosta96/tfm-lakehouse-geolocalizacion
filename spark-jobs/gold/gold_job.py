@@ -71,5 +71,50 @@ metrics_by_age_weekday.write \
 
 print("\nEscritura de tablas Gold completada (metrics_by_barrio, metrics_by_segment_hour, metrics_by_age_weekday).")
 
+from pyspark.sql.functions import lit, when
+
+# ============================================================
+# TABLA 4: campaign_recommendations
+# ============================================================
+
+# Regla 1: Premium + horario nocturno (22-23 o 0-5) -> productos de inversión
+UMBRAL_EVENTOS = 1  # umbral bajo porque el dataset es chico; ajustar con más volumen
+
+regla_premium_nocturno = metrics_by_segment_hour.filter(
+    (col("segmento") == "Premium") &
+    ((col("hora_del_dia") >= 22) | (col("hora_del_dia") <= 5)) &
+    (col("total_eventos") >= UMBRAL_EVENTOS)
+).select(
+    col("barrio"),
+    lit("Premium").alias("segmento_objetivo"),
+    col("hora_del_dia").cast("string").alias("franja_horaria"),
+    lit("Productos de inversión").alias("campana_recomendada"),
+    lit("Alta actividad Premium en horario nocturno").alias("justificacion")
+)
+
+# Regla 2: Jóvenes + fin de semana (Saturday/Sunday) -> beneficios en consumo
+regla_jovenes_finde = metrics_by_age_weekday.filter(
+    (col("rango_etario") == "Joven") &
+    (col("dia_semana").isin("Saturday", "Sunday")) &
+    (col("total_eventos") >= UMBRAL_EVENTOS)
+).select(
+    col("barrio"),
+    lit("Joven").alias("segmento_objetivo"),
+    col("dia_semana").alias("franja_horaria"),
+    lit("Beneficios en consumo").alias("campana_recomendada"),
+    lit("Alta actividad de jóvenes en fin de semana").alias("justificacion")
+)
+
+campaign_recommendations = regla_premium_nocturno.unionByName(regla_jovenes_finde)
+
+print(f"\n--- Recomendaciones de campaña generadas: {campaign_recommendations.count()} ---")
+campaign_recommendations.show(20, truncate=False)
+
+campaign_recommendations.write \
+    .format("delta") \
+    .mode("overwrite") \
+    .save("s3a://gold/campaign_recommendations")
+
+print("Escritura de campaign_recommendations completada.")
 
 spark.stop()
