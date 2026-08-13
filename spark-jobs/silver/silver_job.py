@@ -165,7 +165,8 @@ print(f"Eventos no georreferenciables: {no_geo_count}")
 # Por ahora particionamos solo por fecha
 silver_with_geo_df.write \
     .format("delta") \
-    .mode("append") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
     .partitionBy("fecha", "barrio") \
     .save("s3a://silver/geo_events_enriched")
 
