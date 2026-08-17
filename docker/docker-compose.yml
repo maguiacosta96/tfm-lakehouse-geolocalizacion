@@ -142,7 +142,9 @@ services:
     entrypoint: ["/bin/bash", "-c", "airflow db migrate && airflow users create -u admin -p admin -f Admin -l User -r Admin -e admin@example.com"]
 
   airflow-webserver:
-    image: apache/airflow:2.9.0
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
     container_name: airflow-webserver
     networks: [lakehouse]
     depends_on:
@@ -158,10 +160,13 @@ services:
     volumes:
       - ../dags:/opt/airflow/dags
       - ../docker/logs:/opt/airflow/logs
+      - /var/run/docker.sock:/var/run/docker.sock
     command: webserver
 
   airflow-scheduler:
-    image: apache/airflow:2.9.0
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
     container_name: airflow-scheduler
     networks: [lakehouse]
     depends_on:
@@ -175,5 +180,6 @@ services:
     volumes:
       - ../dags:/opt/airflow/dags
       - ../docker/logs:/opt/airflow/logs
+      - /var/run/docker.sock:/var/run/docker.sock
     command: scheduler
 
