@@ -84,19 +84,23 @@ services:
     entrypoint: ["/bin/sh", "-c", "mc alias set local http://minio:9000 minioadmin minioadmin && mc mb --ignore-existing local/bronze && mc mb --ignore-existing local/silver && mc mb --ignore-existing local/gold && echo Buckets creados"]
 
   spark-master:
-      image: apache/spark:3.5.0
-      container_name: spark-master
-      networks: [lakehouse]
-      command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
-      ports:
-        - "8081:8080"
-        - "7077:7077"
-      volumes:
-        - ../spark-jobs:/opt/spark-jobs
-        - ../data:/opt/data
+    build:
+      context: ./spark
+      dockerfile: Dockerfile
+    container_name: spark-master
+    networks: [lakehouse]
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    ports:
+       - "8081:8080"
+       - "7077:7077"
+    volumes:
+       - ../spark-jobs:/opt/spark-jobs
+       - ../data:/opt/data
 
   spark-worker:
-    image: apache/spark:3.5.0
+    build:
+      context: ./spark
+      dockerfile: Dockerfile
     container_name: spark-worker
     networks: [lakehouse]
     depends_on: [spark-master]
