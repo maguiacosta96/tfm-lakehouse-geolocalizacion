@@ -103,7 +103,7 @@ services:
     volumes:
        - ../spark-jobs:/opt/spark-jobs
        - ../data:/opt/data
-
+       - ../dashboards:/opt/dashboards
   spark-worker:
     build:
       context: ./spark
@@ -118,6 +118,7 @@ services:
     volumes:
       - ../spark-jobs:/opt/spark-jobs
       - ../data:/opt/data
+      - ../dashboards:/opt/dashboards
 
   postgres:
     image: postgres:15

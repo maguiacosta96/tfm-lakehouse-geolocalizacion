@@ -117,4 +117,15 @@ campaign_recommendations.write \
 
 print("Escritura de campaign_recommendations completada.")
 
+# ============================================================
+# Exportación a CSV para consumo en Power BI
+# ============================================================
+EXPORT_PATH = "/opt/data/../dashboards/exports"  # ajustar según montaje
+
+metrics_by_barrio.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{EXPORT_PATH}/metrics_by_barrio_csv")
+metrics_by_segment_hour.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{EXPORT_PATH}/metrics_by_segment_hour_csv")
+metrics_by_age_weekday.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{EXPORT_PATH}/metrics_by_age_weekday_csv")
+campaign_recommendations.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{EXPORT_PATH}/campaign_recommendations_csv")
+
+print("Exportación CSV para Power BI completada.")
 spark.stop()
