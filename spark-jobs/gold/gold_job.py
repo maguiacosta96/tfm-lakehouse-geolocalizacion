@@ -120,12 +120,17 @@ print("Escritura de campaign_recommendations completada.")
 # ============================================================
 # Exportación a CSV para consumo en Power BI
 # ============================================================
-EXPORT_PATH = "/opt/data/../dashboards/exports"  # ajustar según montaje
+EXPORT_PATH = "/opt/dashboards/exports"
 
 metrics_by_barrio.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{EXPORT_PATH}/metrics_by_barrio_csv")
 metrics_by_segment_hour.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{EXPORT_PATH}/metrics_by_segment_hour_csv")
 metrics_by_age_weekday.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{EXPORT_PATH}/metrics_by_age_weekday_csv")
 campaign_recommendations.coalesce(1).write.mode("overwrite").option("header", "true").csv(f"{EXPORT_PATH}/campaign_recommendations_csv")
+
+# NUEVO: eventos individuales con coordenadas, para el mapa de puntos
+silver_df.select("event_id", "latitude", "longitude", "barrio", "segmento", "rango_etario", "hora_del_dia") \
+    .coalesce(1).write.mode("overwrite").option("header", "true") \
+    .csv(f"{EXPORT_PATH}/silver_events_csv")
 
 print("Exportación CSV para Power BI completada.")
 spark.stop()

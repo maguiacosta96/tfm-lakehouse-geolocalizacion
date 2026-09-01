@@ -1,0 +1,351 @@
+event_id,latitude,longitude,barrio,segmento,rango_etario,hora_del_dia
+01322c66-cc69-4c68-852c-ffdecc3bc1fd,-34.67045,-58.414637,,Estándar,Joven,14
+01d7ad9a-acf6-477d-9817-d81626e9a8c0,-34.604092,-58.527751,,Estándar,Adulto,14
+0669ad6d-7775-4eb7-b29f-449f2d153af2,-34.534847,-58.403766,,Básico,Senior,14
+095bec88-26c5-466c-acf6-08e1b718e6c2,-34.570879,-58.35241,,Estándar,Adulto,14
+0dc97438-7230-44d0-be26-045ecb6f9d8e,-34.681873,-58.39167,,Estándar,Joven,14
+0fc26e7f-3d1e-4cce-9002-b87b578cd652,-34.594873,-58.525224,,Premium,Senior,14
+112b20a8-6a2b-4f4b-a68d-8dac58e98082,-34.699799,-58.451594,,Estándar,Joven,14
+11b9be18-c8c4-4aa1-9173-4b28bc69890c,-34.683013,-58.395075,,Premium,Adulto,14
+18c4a573-4815-43f2-89f0-bb5418c96e94,-34.553141,-58.5071,,Estándar,Senior,14
+1ba7ec98-26b3-4fc0-a74e-9c7306f7208b,-34.672373,-58.390169,,Estándar,Senior,14
+200b3c39-1b4a-46ee-ac02-fd9d46635673,-34.691707,-58.358592,,Estándar,Adulto,14
+225ecfc6-43c5-40bd-8042-08db22a75c30,-34.663005,-58.408788,,Estándar,Senior,14
+255d90d6-3011-4167-b482-c7486a7fdeff,-34.660134,-58.405988,,Estándar,Joven,14
+2ecc370f-458d-4eaa-a096-d56e93a3181e,-34.687564,-58.372955,,Estándar,Adulto,14
+35e9409d-7be8-49e6-8297-1e9706b10b49,-34.539284,-58.397271,,Estándar,Adulto,14
+37ee65f2-4b5f-4582-b58d-8720c84249e4,-34.566228,-58.391913,,Básico,Adulto,14
+3e2c75aa-f3ee-4986-935b-e7c71249fbb6,-34.541123,-58.373328,,Premium,Senior,14
+433c828d-405b-44c4-8d9f-2f4f2d563d9f,-34.692399,-58.503189,,Básico,Adulto,14
+44c318f1-6fe6-4cf8-b399-324104301d3c,-34.658034,-58.378523,,Estándar,Senior,14
+48f96eb2-124c-4f29-8dcf-5c9be1af81cb,-34.537496,-58.355651,,Premium,Adulto,14
+4a46d93f-7bb7-4023-96f5-1afc78f51123,-34.686648,-58.366299,,Premium,Senior,14
+50d333b9-c09c-4c52-8991-4a4dabfa72e0,-34.674514,-58.509529,,Estándar,Adulto,14
+5e1bdc1c-f151-412b-a216-ef2f1691f6b3,-34.673205,-58.518603,,Estándar,Adulto,14
+5f552318-c49c-499c-b27c-f135939a2eb6,-34.66625,-58.376829,,Premium,Senior,14
+61ea6045-97b5-4196-9318-315fcfa50162,-34.680394,-58.369206,,Estándar,Senior,14
+65443d1d-9d14-4df7-8f97-1500f12f2919,-34.650988,-58.357029,,Básico,Adulto,14
+6bfdcb05-2282-47d4-81d8-39390cbcbc50,-34.691072,-58.442824,,Básico,Adulto,14
+6c51ab83-5e87-4660-b34d-e3c09c5c9334,-34.533938,-58.490728,,Básico,Senior,14
+7741ce16-3160-42cb-842a-4c09a34ef497,-34.5478,-58.400244,,Básico,Adulto,14
+7beb7449-f225-4346-ae9d-fd08d4496d70,-34.540609,-58.425853,,Premium,Adulto,14
+7d53dbb2-f878-4a78-a04d-6c7d86494508,-34.53655,-58.519015,,Premium,Adulto,14
+7ff9b9e3-26ca-489f-8648-8d0c21be9c45,-34.67586,-58.429442,,Básico,Senior,14
+81c64371-3145-4f43-9a0b-98cf7ebb7b45,-34.550877,-58.365169,,Premium,Joven,14
+850156f5-7f52-4532-8a30-758e48f1577d,-34.536535,-58.429389,,Premium,Senior,14
+8619a3c1-1681-480b-8bb1-42de25f35671,-34.672561,-58.506067,,Básico,Senior,14
+874e0dc9-fcfd-41c2-b6b4-303dc49217e1,-34.543827,-58.508742,,Premium,Adulto,14
+93c924aa-c901-4a0b-a806-a6072364a187,-34.674621,-58.368484,,Básico,Adulto,14
+957c3b0b-b36b-434d-af48-5c2263f98610,-34.686292,-58.403913,,Estándar,Adulto,14
+973bc660-0f80-4386-8f07-fbac64a78a3e,-34.669111,-58.4102,,Premium,Adulto,14
+97ec7020-2d38-4fa4-94a2-be3dc72738c9,-34.699454,-58.419817,,Básico,Senior,14
+9cc00b7a-19aa-458e-a558-abccfef81b82,-34.54775,-58.38817,,Básico,Senior,14
+9d233ad8-e2ca-4862-a183-9b81b434b9f0,-34.664734,-58.372742,,Premium,Adulto,14
+9debc159-40a1-4531-89bb-5656cee25f17,-34.533731,-58.361502,,Básico,Adulto,14
+9f532846-1179-4722-948a-45ed7da86e78,-34.699856,-58.373415,,Estándar,Joven,14
+9fed1cbe-3369-4642-afbc-0ab19e1bf55d,-34.698073,-58.371964,,Básico,Senior,14
+a0208d33-8d18-4df0-8c61-46f4dd6ccb51,-34.691545,-58.497369,,Estándar,Adulto,14
+a0eb28d0-f12b-49ca-bab6-9bca2bb82550,-34.567724,-58.389583,,Básico,Adulto,14
+a19eb3b2-a0f7-4c5b-aab5-7f3ec29f5d4a,-34.67058,-58.406536,,Estándar,Senior,14
+a318ee9c-cfa6-4ef5-957c-5d07518e98c6,-34.573446,-58.382704,,Estándar,Joven,14
+a9b10ff5-2fe8-4beb-a2fa-78e6eedb2ebe,-34.697921,-58.391394,,Estándar,Adulto,14
+b29cab1f-ef50-42cf-b404-6bd799dc0b41,-34.667777,-58.418819,,Premium,Senior,14
+b2da6401-2779-4433-be4b-09abd724d1a7,-34.531431,-58.447496,,Estándar,Joven,14
+b45c4e41-2cc7-4262-aecc-622ccae4174a,-34.664867,-58.412577,,Premium,Senior,14
+b565577f-0239-409e-ba71-039d8b313f7c,-34.697884,-58.427881,,Estándar,Adulto,14
+b7391458-f2ed-4ca1-9663-e70bcd0d82a9,-34.534001,-58.490156,,Básico,Senior,14
+b8ab69cb-c623-40d4-8047-74a2007c49f3,-34.671596,-58.413308,,Básico,Adulto,14
+b9ac0ecf-5fc7-4998-a697-c462ea1f8a61,-34.552941,-58.405996,,Básico,Senior,14
+baa7e0fe-1fc4-4e67-a7a4-f17dc667010c,-34.540884,-58.400387,,Premium,Joven,14
+bbf77dbe-e155-4962-ab98-6c0602b29b27,-34.690671,-58.414399,,Premium,Joven,14
+beed3a50-6931-4d05-b3d0-d5954e495c19,-34.677481,-58.359049,,Estándar,Joven,14
+c1c3955e-b104-4d80-ad94-a44d77c12175,-34.531222,-58.381858,,Estándar,Joven,14
+c30d17ee-5f52-4bdc-b04d-f8af2ccf4f2d,-34.533558,-58.52127,,Estándar,Adulto,14
+c597b5b2-f932-4ca6-af88-409704dfe923,-34.549232,-58.367949,,Premium,Senior,14
+c66d1457-2d6b-449f-b9b7-144766db6137,-34.681841,-58.371203,,Estándar,Senior,14
+c773f8be-7412-4ec5-8890-063b9fd84b10,-34.679168,-58.425207,,Premium,Adulto,14
+c9dab53c-a0f8-4e7f-afc9-6d0b190ef6c1,-34.561124,-58.39059,,Premium,Adulto,14
+cfb7940e-163c-4cff-8e0a-086bb733e61f,-34.681253,-58.41815,,Premium,Joven,14
+d3cadb77-49af-4c17-ab32-be549a9b74ba,-34.540928,-58.400925,,Estándar,Senior,14
+d4b1d7f7-1713-4d71-81c9-272c006b2a9f,-34.542659,-58.517606,,Estándar,Adulto,14
+da0e651c-b01a-43f9-8159-87e2fa7ab4b4,-34.669954,-58.518517,,Estándar,Senior,14
+dd7a15c9-e516-4c6a-9d31-3528c7e3ca6a,-34.663314,-58.375818,,Estándar,Adulto,14
+dd959f38-459f-4035-ba7c-8075586dc307,-34.551964,-58.358062,,Estándar,Adulto,14
+e1ff5d11-39b3-4710-a1ad-38940232afb8,-34.546322,-58.49612,,Premium,Joven,14
+e2ea5d92-37a4-4a23-9491-07157d7b748d,-34.68333,-58.511845,,Estándar,Adulto,14
+e2f438c6-1c30-40d7-9961-4d3583fa3d78,-34.54606,-58.394554,,Estándar,Senior,14
+e3eb79d3-6efe-47f8-9ca5-e592a2744098,-34.531475,-58.434054,,Estándar,Joven,14
+e47d1326-8a9c-45f0-a59a-13beea579ab9,-34.692842,-58.50652,,Premium,Senior,14
+e8855325-c5ba-4097-8b12-1ba167ccdb86,-34.558303,-58.514927,,Básico,Senior,14
+ebbd2f0c-5674-4a1d-a493-b7dcbacdbac8,-34.5502,-58.522639,,Estándar,Adulto,14
+f21cac57-7229-4dfe-aecb-6768017fc67a,-34.536951,-58.400051,,Premium,Adulto,14
+f3e472e0-9105-4794-9b36-644c2705c1ed,-34.672773,-58.512703,,Premium,Adulto,14
+f9b0fd18-fde2-47a5-986a-94ccf59156eb,-34.53238,-58.473368,,Premium,Senior,14
+082143de-a85f-4569-af6c-719d5e0252fe,-34.672457,-58.363271,,Básico,Senior,13
+0c4cb39b-4515-4d98-ac12-a909da26690c,-34.556208,-58.520826,,Básico,Adulto,13
+118ba498-eddb-4eae-8055-c4c29815913a,-34.675629,-58.431784,,Básico,Adulto,14
+1a1176fc-a72c-4163-abe7-bc4d5aca0a12,-34.673504,-58.398688,,Estándar,Senior,13
+1f34a1ec-cf7f-4d99-b9c3-574d6c216a7e,-34.548617,-58.384471,,Estándar,Senior,14
+22daee52-768d-44a6-9a93-5aff0574b210,-34.560226,-58.528249,,Básico,Senior,13
+2656325c-2e81-4d6b-ad86-3b919103c63a,-34.538275,-58.49488,,Básico,Senior,13
+312471e1-f468-4ca8-b90f-9458d7299343,-34.579727,-58.521431,,Estándar,Senior,14
+3da33752-5dc1-4cfd-8a60-61c739932092,-34.587493,-58.529068,,Básico,Joven,13
+46e9f2c5-3a16-4164-ac9f-5a070c4639d9,-34.66862,-58.36998,,Premium,Senior,14
+5075e63c-37dc-42bc-bb03-3116ec6ae0a7,-34.696552,-58.352699,,Básico,Adulto,14
+546f765f-fcb8-485e-8593-0b9df16db302,-34.530538,-58.355184,,Premium,Adulto,14
+60582a2a-8037-44f6-8c6c-4a48dc1e96bc,-34.692024,-58.374127,,Premium,Adulto,14
+6068420c-81be-4882-95bc-229246285781,-34.691054,-58.390539,,Básico,Adulto,14
+6aebbab4-c20c-4c4e-9bc5-d2cfc62417cd,-34.545709,-58.375044,,Premium,Senior,14
+75d957cd-0ef8-48b1-8d0b-31b242b318d9,-34.690273,-58.354673,,Premium,Adulto,14
+810f4761-f9f0-4968-8c0b-eb2e63c498b9,-34.54185,-58.420592,,Estándar,Joven,14
+a11c4c92-e22c-4d6a-9dd1-aa5c24d56944,-34.69333,-58.526596,,Básico,Joven,13
+ad3d37d5-839e-4f45-b631-8cc113253838,-34.678141,-58.363996,,Premium,Adulto,14
+b3aa25db-7998-4709-9859-b9df0349a716,-34.674107,-58.359148,,Estándar,Senior,14
+ba7de421-43a6-4e14-b4ac-55a542565952,-34.668904,-58.391485,,Estándar,Adulto,14
+bdc59ebb-49bb-4a06-a5a8-84f0b014eb49,-34.53297,-58.374409,,Básico,Senior,13
+c38b6a69-467c-4829-ba63-44a9e4380987,-34.534864,-58.350823,,Estándar,Adulto,13
+c7989c87-3302-4996-b07b-9111676311c3,-34.574733,-58.366418,,Estándar,Senior,14
+c8fd9625-1ac8-41ae-bd93-68bd567c706b,-34.696271,-58.419206,,Premium,Senior,13
+d124c4b9-c732-4257-a0f9-e6c9ad5cc376,-34.571667,-58.360784,,Premium,Senior,13
+d69a1ef9-3503-4e53-8ce9-614c36ad5cfa,-34.689466,-58.421459,,Básico,Adulto,14
+d995c21e-5856-4379-bdf1-03aa1931236d,-34.530958,-58.429622,,Estándar,Senior,14
+e43a30e9-de93-42ac-a324-291686f5eed3,-34.5477,-58.373675,,Estándar,Senior,14
+ea181a1d-422d-49fe-b7cd-7a5a0bdc61b2,-34.654432,-58.529085,,Estándar,Senior,14
+f55f6d34-55c2-4520-9a0e-e26e68f8664c,-34.555961,-58.396199,,Estándar,Adulto,14
+04a2aca3-382d-4786-ba29-2cc7603e47c6,-34.553273,-58.421934,Palermo,Básico,Senior,14
+0505bdfb-18d4-4df9-b523-92b91ed7e06e,-34.592379,-58.421761,Palermo,Básico,Adulto,14
+0ad00974-ed0d-45eb-8b16-96da5a5ed16a,-34.569731,-58.420362,Palermo,Estándar,Adulto,14
+2144f70b-8c71-4ba3-906c-32d31aa91cf7,-34.566057,-58.42376,Palermo,Premium,Adulto,14
+58ac85df-32b1-4848-90d9-cea77968d678,-34.567697,-58.444575,Palermo,Estándar,Adulto,14
+70f77d6a-ef8a-439b-8000-8f69aa682653,-34.564722,-58.399682,Palermo,Básico,Adulto,14
+79c281d8-7e51-4734-a044-9906d8ae2a1d,-34.569069,-58.421879,Palermo,Premium,Joven,14
+7a22a6f9-287f-4455-a5f9-7dddf62b9ee7,-34.582387,-58.413373,Palermo,Estándar,Joven,14
+9873a56f-d1a7-4c2a-889a-caa6e088d17c,-34.589813,-58.417614,Palermo,Estándar,Joven,14
+ad6fb368-d682-4427-93fd-20d229e63332,-34.561862,-58.430197,Palermo,Básico,Joven,14
+b744a72b-486f-4ef4-a05e-96156b79e49f,-34.563735,-58.4172,Palermo,Estándar,Senior,14
+cd98a2f1-6f02-4527-8a45-d369ed20d338,-34.564393,-58.4057,Palermo,Premium,Adulto,14
+1ae97ea2-8d2e-440d-8ab5-90f61b066402,-34.666865,-58.507841,Mataderos,Estándar,Adulto,14
+1dfb42a4-3c0f-4781-903b-4513633e63ec,-34.65263,-58.51215,Mataderos,Básico,Adulto,14
+3538b0b5-12c9-4aba-b957-773db211c862,-34.659198,-58.510353,Mataderos,Estándar,Joven,14
+60612d02-c005-4400-b68b-b5a76a3a88b4,-34.652067,-58.492518,Mataderos,Estándar,Senior,14
+6f0184a1-fd2d-49c5-8ae4-6d3b67c65087,-34.656186,-58.519501,Mataderos,Estándar,Senior,14
+89d4da49-7c7d-473a-bb93-aa17073acb64,-34.662832,-58.512904,Mataderos,Básico,Senior,14
+95bc7e02-0cae-4f34-bcfc-af14c7c0aa65,-34.661255,-58.508026,Mataderos,Básico,Adulto,14
+ca9c57ca-eb87-409c-9a51-4716dd68af1b,-34.650784,-58.496298,Mataderos,Premium,Adulto,14
+d303efa4-5123-45c9-b98e-e7dec35ea47d,-34.659038,-58.502712,Mataderos,Premium,Adulto,14
+d44b4213-7256-41e8-8567-11536d349ca4,-34.6592,-58.491425,Mataderos,Premium,Senior,14
+0ab165c6-1823-4519-9d07-28a462cdd96e,-34.624722,-58.452251,Caballito,Estándar,Adulto,14
+11f71172-671e-4af5-92d0-c209737892b8,-34.628952,-58.446166,Caballito,Básico,Senior,14
+3489fa0f-881c-4271-911d-1ffed2fad18b,-34.614701,-58.432978,Caballito,Básico,Joven,14
+3a9437a0-5c3b-45e5-8548-83932597bb43,-34.619026,-58.446469,Caballito,Estándar,Adulto,14
+4f9c1d49-a6b4-491c-95a7-b377de962602,-34.615741,-58.435115,Caballito,Premium,Senior,14
+5e3a40de-f1b6-4462-b92b-c68e10b6e955,-34.622231,-58.454487,Caballito,Básico,Adulto,14
+80ab3ec7-2ab7-4832-aef4-b1637274d60b,-34.625804,-58.447835,Caballito,Premium,Adulto,14
+c0d88324-3bae-4eef-9d60-d7fcf71abff9,-34.61648,-58.449845,Caballito,Premium,Joven,14
+c3c44016-c852-49d2-9800-cd04b84be950,-34.60819,-58.438551,Caballito,Premium,Adulto,14
+d71cb5be-a7ff-4253-a17f-7795985d1523,-34.606959,-58.454567,Caballito,Estándar,Joven,14
+235607ec-95d4-4899-8a0e-7ed4a8e286c6,-34.618497,-58.467558,Flores,Estándar,Senior,14
+749be353-ef62-47e6-baf4-3d35512f3868,-34.647758,-58.441758,Flores,Premium,Joven,14
+85a273ed-936c-4cf2-b7ec-e8070c8ab131,-34.650124,-58.446466,Flores,Premium,Joven,14
+8a95717d-ac2f-4460-aaeb-99f7e1391c6f,-34.635743,-58.465021,Flores,Premium,Senior,14
+a24b07a5-1d5d-4133-8d93-d2365554914d,-34.619606,-58.471513,Flores,Estándar,Adulto,14
+a5e4d8de-2662-4055-93b7-74258d02be22,-34.648208,-58.437293,Flores,Premium,Adulto,14
+ab24b5dc-9c02-4b86-83cf-5bd78e1b544e,-34.623259,-58.467618,Flores,Estándar,Adulto,14
+e5a56002-1385-45de-9840-f77d48382522,-34.651388,-58.458774,Flores,Básico,Senior,14
+ef501cd6-0bee-4a11-ad58-78b4976bc066,-34.652508,-58.439104,Flores,Estándar,Senior,14
+094f6ec0-f418-4467-aaed-c892be24e416,-34.620176,-58.41965,Almagro,Básico,Adulto,14
+0abd46f3-8467-40cd-ae1a-d6ff83b25759,-34.618993,-58.427823,Almagro,Premium,Adulto,14
+1fb73a24-fc46-48eb-8f81-c7a2d7a54d40,-34.603482,-58.422325,Almagro,Premium,Senior,14
+5f4d5365-acac-4e9f-afda-212f50366d63,-34.615982,-58.420281,Almagro,Estándar,Senior,14
+5fef04ab-35c0-4c72-a45f-a4a835291fa3,-34.61538,-58.417775,Almagro,Estándar,Senior,14
+c72d4dc0-52b1-4b81-a3f3-1a1b088d6ae7,-34.615377,-58.419438,Almagro,Estándar,Adulto,14
+ecb10ede-909c-49b6-90c4-b3080481cebc,-34.618877,-58.425247,Almagro,Premium,Adulto,14
+3c5781ba-0e6c-4142-a6d8-4ff5fe2ad4be,-34.680989,-58.463661,Villa Lugano,Básico,Senior,14
+889b8206-e956-48f1-8f16-a391d69dfed4,-34.670595,-58.491602,Villa Lugano,Estándar,Joven,14
+b203ed98-d5f5-403c-b9eb-688eccc9a245,-34.664381,-58.475789,Villa Lugano,Básico,Senior,14
+b353a93b-36bc-4624-8e92-21d120724a8f,-34.677453,-58.462264,Villa Lugano,Básico,Senior,14
+b990b068-b964-42c9-8977-09fd29dd1c41,-34.6742,-58.462929,Villa Lugano,Estándar,Joven,14
+c9a58d7e-2e4a-48b2-a92e-f81ec2974f35,-34.678707,-58.472829,Villa Lugano,Básico,Adulto,14
+d9cec3b1-8c3f-4ff7-9c4e-f685ca86d99f,-34.683241,-58.467755,Villa Lugano,Básico,Adulto,14
+2d9d365c-4448-4fa9-b97b-c6aeb4cc3657,-34.656849,-58.457802,Villa Soldati,Básico,Senior,14
+38944d51-1a8f-4a41-b952-ad59ff407969,-34.673243,-58.458519,Villa Soldati,Premium,Adulto,14
+52e2835e-81a7-4705-a8b9-4a7909d23716,-34.66296,-58.455343,Villa Soldati,Estándar,Adulto,14
+a67330af-930f-4bc7-8c73-607416fb2c75,-34.66072,-58.453131,Villa Soldati,Básico,Senior,14
+a9ab5718-ff6b-4ee6-b127-e1f6b005f5fe,-34.670929,-58.433753,Villa Soldati,Estándar,Senior,14
+af35e7f4-fff3-4af0-a634-9f082cc23601,-34.657708,-58.441848,Villa Soldati,Premium,Adulto,14
+b436e852-496d-4e9b-bd4c-ad4b773751d2,-34.665093,-58.469407,Villa Soldati,Básico,Senior,14
+158cbe83-f4df-4bf7-b289-073b7a4c105e,-34.633463,-58.448431,Parque Chacabuco,Estándar,Adulto,14
+1a49fb03-9fef-414c-89f8-d396957f2dc6,-34.63342,-58.453404,Parque Chacabuco,Premium,Senior,14
+1c79b521-a32e-483c-9fd4-6c8d3b40702f,-34.633712,-58.432946,Parque Chacabuco,Premium,Adulto,14
+29afc432-3e06-49d8-889c-f6544d5ea116,-34.644615,-58.436342,Parque Chacabuco,Estándar,Joven,14
+49e7b9fc-d6ae-4ec7-b83c-f878a653c9ec,-34.633418,-58.433307,Parque Chacabuco,Estándar,Adulto,14
+a2924b25-76af-4e46-b05b-89366e405666,-34.6415,-58.433452,Parque Chacabuco,Básico,Joven,14
+39427a8d-4d93-4865-b044-b902fec587fb,-34.570439,-58.498242,Villa Urquiza,Básico,Joven,14
+66395048-ff72-4445-b1ee-5d733de25203,-34.580823,-58.493271,Villa Urquiza,Premium,Joven,14
+9129eb0e-82bd-4a29-9386-fcb1542c5e16,-34.569091,-58.498024,Villa Urquiza,Básico,Joven,14
+bfae67f6-57a0-4fc4-97bf-2d388a0786b4,-34.570161,-58.473594,Villa Urquiza,Premium,Adulto,14
+caef778e-4548-4f7a-9061-0155b78aab99,-34.568067,-58.49568,Villa Urquiza,Premium,Adulto,14
+cf444387-135a-458c-a9ff-867594143635,-34.563048,-58.491207,Villa Urquiza,Premium,Adulto,14
+1cb888bf-6c4b-458b-be66-4b7a04153983,-34.596917,-58.5031,Villa Devoto,Estándar,Adulto,14
+5ad5d99d-a719-4209-8ebf-784b9a04487c,-34.58376,-58.515728,Villa Devoto,Estándar,Adulto,14
+c631a318-f9e6-440f-b768-12c4f81ce6dd,-34.596202,-58.515306,Villa Devoto,Estándar,Adulto,14
+dddeec3a-068f-4c17-aefb-ab30949abf7b,-34.597026,-58.50765,Villa Devoto,Básico,Adulto,14
+fc8e1020-b2c4-4186-a82d-3194dbf7f27f,-34.612045,-58.506425,Villa Devoto,Básico,Senior,14
+57d51281-5d80-4b25-a4cc-37ec146dd0dd,-34.641063,-58.404742,Parque Patricios,Estándar,Senior,14
+5b1158f1-ee06-43d3-923f-0db20e9122e2,-34.646502,-58.403882,Parque Patricios,Premium,Adulto,14
+981999fd-25aa-4b84-9c39-4e4a5db85ac2,-34.634709,-58.399474,Parque Patricios,Premium,Senior,14
+ac32f493-592c-41d9-8a34-fc9e993c95b8,-34.646007,-58.403437,Parque Patricios,Premium,Joven,14
+be734ed8-407c-416c-896b-7e21b53405f2,-34.632445,-58.411099,Parque Patricios,Básico,Senior,14
+2aaeb993-6895-4c64-bb94-cc01cecaafd2,-34.596183,-58.38686,Retiro,Estándar,Joven,14
+56af9b30-4720-49f8-8843-a5eec287dcc2,-34.588554,-58.375809,Retiro,Básico,Adulto,14
+aeef6238-8540-4611-a0ff-a9d36e324c75,-34.589689,-58.372667,Retiro,Estándar,Senior,14
+b1375fba-1cc4-4ba2-930e-77dda7e1b2e1,-34.589522,-58.368355,Retiro,Básico,Joven,14
+fc96cefa-df7f-4095-b8e4-a07e2cd35948,-34.591636,-58.378273,Retiro,Premium,Adulto,14
+06092df1-b742-4af9-9ea1-eeaab3ecf127,-34.591843,-58.406724,Recoleta,Estándar,Senior,14
+7bf0e678-e70a-4469-90cc-a46a31dc18aa,-34.592623,-58.396155,Recoleta,Premium,Senior,14
+91471321-2415-4b2c-8620-46c2b3e31642,-34.592661,-58.412038,Recoleta,Estándar,Senior,14
+f0132d86-3008-418e-8b45-c6265185666e,-34.598408,-58.3904,Recoleta,Premium,Adulto,14
+f6607617-3de6-4db5-998a-b142fc2810f0,-34.595107,-58.38952,Recoleta,Premium,Senior,14
+00f5ae88-86e8-4c38-bb0d-489920b3a34c,-34.545661,-58.446318,Belgrano,Estándar,Joven,14
+016a8563-b51e-40b7-9123-85a9d8add1ba,-34.560461,-58.462989,Belgrano,Estándar,Adulto,14
+15d99429-00fa-4ff9-b308-ce984bfe9bd9,-34.548606,-58.440831,Belgrano,Básico,Adulto,14
+33ab87c1-6b76-44fa-9971-657f99ca0388,-34.56792,-58.460509,Belgrano,Premium,Senior,14
+5292a1cb-b38a-4d4f-affd-ec2ada68c7ee,-34.563235,-58.448785,Belgrano,Premium,Joven,14
+26141a45-371b-4842-8c26-1c01fb07a857,-34.610201,-58.402039,Balvanera,Estándar,Adulto,14
+2eb413eb-7336-4a0b-86fd-95b70da9ccde,-34.598103,-58.408518,Balvanera,Premium,Joven,14
+4a7b8419-dddd-4811-91f6-51085391ea7e,-34.615703,-58.398084,Balvanera,Estándar,Joven,14
+aac5c193-1622-4b96-937f-ebbd872c6c49,-34.613034,-58.407852,Balvanera,Estándar,Adulto,14
+b49c32de-e793-4e4c-a66c-45417e0aa5a6,-34.632752,-58.373196,Barracas,Básico,Senior,14
+ddefac87-5e9b-42e8-9b5a-043f2ff00b24,-34.656963,-58.393396,Barracas,Premium,Adulto,14
+e1d47a98-9c8e-4b3a-b40c-ac1e23e6193e,-34.646452,-58.394969,Barracas,Básico,Joven,14
+f27a2556-df71-40a4-9c5e-6ce0a74ec604,-34.655066,-58.377934,Barracas,Básico,Adulto,14
+32dd1fc2-93f8-400e-a35a-27bc604a9496,-34.591955,-58.448389,Chacarita,Básico,Adulto,14
+34a276bd-11fc-4d46-8454-60e090597b30,-34.58396,-58.447422,Chacarita,Premium,Adulto,14
+43aa14cf-3b5c-4c66-b26c-174b5ec032dc,-34.579134,-58.457357,Chacarita,Estándar,Adulto,14
+e7080876-eb5c-4b89-bd29-52aa43f58273,-34.589864,-58.445675,Chacarita,Básico,Adulto,14
+572f40ef-3d62-4938-99e2-e22e6fed3162,-34.637624,-58.447293,Parque Chacabuco,Básico,Adulto,14
+5c2f36e6-ae16-4848-8e6a-d477a13dd6e2,-34.629783,-58.435059,Parque Chacabuco,Estándar,Senior,13
+a7408d92-642c-4bec-9429-e1e369c432bf,-34.634572,-58.437141,Parque Chacabuco,Básico,Adulto,13
+f32305da-5990-44e0-b7fc-e4efa3d38e98,-34.634867,-58.438845,Parque Chacabuco,Estándar,Adulto,14
+24df21c4-8e12-4436-819c-daf8bf906955,-34.623891,-58.500875,Velez Sarsfield,Básico,Adulto,14
+2d8e59a3-9316-4b17-8c43-345a63dc45d9,-34.62382,-58.498346,Velez Sarsfield,Estándar,Adulto,14
+4bbe779c-b567-473d-97bf-7769488bb84b,-34.635739,-58.485701,Velez Sarsfield,Básico,Adulto,14
+5f75a989-c818-4ffa-98fe-d412386fc26a,-34.635632,-58.489962,Velez Sarsfield,Premium,Joven,14
+8c88698b-c833-43af-ad92-a5ee9e64a21a,-34.609109,-58.381674,Monserrat,Premium,Adulto,14
+d4b46313-dbde-4bda-8ca5-546f52c9e599,-34.61239,-58.389955,Monserrat,Básico,Senior,14
+dc0a7ca8-86f4-4f5e-b346-364a88bd60f3,-34.614166,-58.377434,Monserrat,Básico,Adulto,14
+f5fccfa8-f2f2-477c-8187-e0fe3cf045ca,-34.608599,-58.382687,Monserrat,Básico,Joven,14
+26f0921b-2122-420e-afe0-d4301f567afc,-34.58875,-58.500503,Villa Pueyrredon,Premium,Adulto,14
+52651fed-ad14-4765-a97e-3e332bf16691,-34.590859,-58.500656,Villa Pueyrredon,Premium,Senior,14
+6742e9a1-cec1-4a1c-968b-3dcb415f93e7,-34.581703,-58.495401,Villa Pueyrredon,Básico,Joven,14
+05f69202-6b89-4054-8969-b182f2403d79,-34.566778,-58.505352,Saavedra,Premium,Senior,14
+570f0b83-0e2c-45f4-98b6-c7e52bf2ba38,-34.556784,-58.495294,Saavedra,Premium,Adulto,14
+99c2a6c9-7b0c-4903-917a-71950024afa5,-34.560806,-58.491632,Saavedra,Premium,Senior,14
+a2719b0a-3989-4d3e-832c-037fefb7e731,-34.561705,-58.498819,Saavedra,Estándar,Senior,14
+459e43c8-d90e-4a57-89f7-907bbffd8ac7,-34.6834,-58.421811,,Estándar,Joven,16
+b807844d-6bfe-4d41-9c2e-c21b0540d224,-34.682564,-58.522772,,Básico,Joven,16
+e8a8b17f-4777-45d0-ab15-fe06875156cd,-34.678322,-58.511446,,Premium,Joven,16
+ec8c27ba-5954-4d19-90dd-927c3a90726f,-34.6835,-58.500851,,Estándar,Joven,16
+17f07efd-7d34-4f85-bd1f-1062dbdc9230,-34.643036,-58.366682,La Boca,Básico,Adulto,14
+1f44a76b-3028-4282-a96b-97e2df93da57,-34.63158,-58.357243,La Boca,Premium,Senior,14
+7791a89d-3c1e-49ae-ab60-d8328397b44d,-34.625141,-58.352532,La Boca,Premium,Adulto,14
+7da978d8-cda0-46e6-9dd1-7e768a59978b,-34.615817,-58.501351,Monte Castro,Estándar,Senior,14
+97bd7b78-f5ee-4b57-a7b8-fe81eaeec697,-34.613951,-58.496056,Monte Castro,Estándar,Adulto,14
+b7385af7-ef31-4bae-857c-ca7eff33145d,-34.614183,-58.501212,Monte Castro,Estándar,Adulto,14
+6cd55c76-f660-40a8-8397-f6ff3d19ef5a,-34.588641,-58.433464,Palermo,Estándar,Joven,14
+6dbdc64b-f12c-44e4-9608-be959ba0ea86,-34.581745,-58.428789,Palermo,Estándar,Adulto,14
+8b4c3a8c-e247-407f-9558-7c93e9a84301,-34.585109,-58.443142,Palermo,Básico,Adulto,14
+306895b4-b8e3-4003-8d87-7fdd056c0f21,-34.660633,-58.432381,Villa Soldati,Estándar,Adulto,13
+32ba146c-713d-4472-8594-0e78c8741628,-34.657012,-58.431089,Villa Soldati,Premium,Joven,13
+cf99c51b-f3d7-49da-8df9-53d7f1a24725,-34.652095,-58.44776,Villa Soldati,Estándar,Senior,13
+6797ab30-c269-4615-bc20-5c9deb88c26c,-34.599692,-58.519117,Villa Devoto,Premium,Senior,14
+6fe2b1d6-0713-4ee0-b355-392b05bdf586,-34.609242,-58.516526,Villa Devoto,Básico,Adulto,14
+cdf157bc-09c0-4d7f-a8e3-5ba86fc77b97,-34.585958,-58.516521,Villa Devoto,Básico,Adulto,14
+1d2f8d3a-c473-4706-a7ff-b8c8e700faac,-34.641539,-58.490225,Villa Luro,Premium,Joven,14
+84b77fa5-9739-4763-8f69-cb311a4f7405,-34.631427,-58.510666,Villa Luro,Básico,Joven,14
+87bd8810-81ac-4502-a155-34456f8a0c4f,-34.63623,-58.494648,Villa Luro,Premium,Joven,14
+4c408140-cc83-4701-a6d1-cb64d20caa5a,-34.658021,-58.359013,,Estándar,Senior,17
+9e12274c-8a5b-4887-9775-fc70cb162aca,-34.696838,-58.511279,,Estándar,Senior,17
+d4b48005-7b6b-423b-abe3-4248996098fd,-34.571835,-58.358513,,Estándar,Adulto,17
+75f48db7-334c-40c8-9914-2c9c75ee80f6,-34.57077,-58.442506,Palermo,Premium,Adulto,23
+b583d9f4-67c4-41c4-8b5c-f1731fbbf980,-34.581769,-58.413371,Palermo,Premium,Adulto,23
+3fc20d8f-113b-4e8c-9459-63232cc5b680,-34.568446,-58.434616,Palermo,Premium,Joven,17
+c4ae35da-4b9c-4a6e-a7af-bdfdde79da09,-34.559599,-58.437424,Palermo,Premium,Adulto,17
+bb7a6433-94f0-4e3d-9273-fe84f45ae601,-34.576376,-58.45713,Colegiales,Estándar,Senior,14
+e01df319-1ecc-4ea9-ac9f-5df9422dd48b,-34.569959,-58.448493,Colegiales,Estándar,Joven,14
+5e125827-9623-414d-961d-664c71b41be1,-34.610212,-58.497951,Villa Del Parque,Estándar,Adulto,14
+d7364dce-63ff-4cf5-b878-de4d2f55fe81,-34.602119,-58.48805,Villa Del Parque,Básico,Senior,14
+3ce72b49-aff2-4813-964c-7ab3e8b698ab,-34.635581,-58.473922,Floresta,Estándar,Adulto,14
+4bad4604-24d3-4ad8-b7c0-ee2dd7d3586d,-34.633644,-58.481318,Floresta,Estándar,Joven,14
+c13f194a-06ca-4899-996f-210d6e89a465,-34.570015,-58.454943,Colegiales,Estándar,Senior,14
+f6ecbcad-2eb6-4892-98a4-5f0bd5eff132,-34.569057,-58.451162,Colegiales,Estándar,Joven,13
+052c1013-d8cb-4b7c-93b7-a6a5b5608847,-34.615984,-58.35448,Puerto Madero,Estándar,Senior,14
+a6b5d84e-7750-4279-ac78-d7812dd52a34,-34.620675,-58.361839,Puerto Madero,Básico,Senior,14
+8a76f6e1-f757-44a8-9c96-b95f44ff3773,-34.603295,-58.435745,Villa Crespo,Estándar,Senior,14
+bff7bfb6-3d9c-496a-8ae4-1f8415f55aa9,-34.602458,-58.371781,San Nicolas,Estándar,Senior,14
+e38d55a7-ba96-4fc2-b9dc-f719a18e3a87,-34.606112,-58.375301,San Nicolas,Básico,Senior,14
+95dba812-8b70-4fe8-9cb8-57eb56d09518,-34.592408,-58.466394,Paternal,Estándar,Senior,14
+e95f2265-f5a5-4e8e-aebf-09eb346fd54a,-34.598972,-58.463564,Paternal,Estándar,Adulto,14
+b07cb72f-ad79-45e7-bb73-50e583bd3b5f,-34.616753,-58.479099,Villa Santa Rita,Básico,Senior,14
+b08c60b9-97b8-48d1-baa7-52437bb84e21,-34.613917,-58.485141,Villa Santa Rita,Estándar,Adulto,14
+0b983bf0-2e1d-44d7-b876-5ec6925906b4,-34.615825,-58.436447,Caballito,Estándar,Senior,17
+a266ea64-6922-4295-9a8d-bd92aeb8255f,-34.620016,-58.45465,Caballito,Premium,Adulto,17
+23118bb7-0289-4e15-aa2c-55a968fb1c55,-34.685809,-58.472449,Villa Riachuelo,Premium,Joven,14
+f5984f52-69a5-4070-adba-b3cd1d9d434c,-34.684846,-58.476975,Villa Riachuelo,Básico,Adulto,14
+4c6a182c-fc9f-448a-8ae1-b8de576df0df,-34.68352,-58.485005,Villa Lugano,Básico,Senior,13
+e63f7951-5739-45be-9c5b-1e7a539c9376,-34.676499,-58.474196,Villa Lugano,Premium,Adulto,14
+3deed5b8-0342-475f-8065-b3463fb6f8c5,-34.547582,-58.449564,Belgrano,Básico,Adulto,13
+b413b66b-7163-46d2-8531-7e0872a484b7,-34.559932,-58.445969,Belgrano,Premium,Adulto,13
+4e37092e-cd88-4686-91a8-27fc6077329d,-34.583943,-58.396796,Recoleta,Estándar,Adulto,13
+1d367193-a5f5-43b8-a4cc-4345b3465420,-34.654909,-58.510349,Mataderos,Básico,Adulto,14
+b123a6c6-29c0-4e79-a6f7-82b1e6322efa,-34.656167,-58.517232,Mataderos,Premium,Joven,14
+2158e2db-6ce8-4f68-96b7-fcf0e86c9802,-34.61051,-58.393969,Balvanera,Premium,Adulto,14
+ababb89c-e67d-4a8e-8963-8379ca3e3f85,-34.603312,-58.409146,Balvanera,Premium,Senior,14
+ff8a6f0c-c089-41ee-98d3-81876404f868,-34.647049,-58.377066,Barracas,Estándar,Joven,17
+05e16326-da55-4f88-aa2d-5b06f5dc6dfa,-34.531374,-58.452283,Nuñez,Estándar,Adulto,14
+fe564553-d9f4-4740-b7df-7fde871da7bd,-34.544418,-58.461476,Nuñez,Premium,Joven,14
+013a19bc-66a3-4900-a760-8a0f11a424bb,-34.623187,-58.424086,Boedo,Básico,Adulto,14
+d1c9d5ed-ea92-4fae-be12-3babdaea63d9,-34.633501,-58.421428,Boedo,Premium,Senior,14
+23666f48-1743-43d3-823a-dc0e69a7d36d,-34.571025,-58.467687,Belgrano,Básico,Adulto,17
+406a4ce1-f2e6-46fb-98e2-9b665cbe0149,-34.626665,-58.525463,Versalles,Estándar,Senior,14
+84f05eaf-f22c-4afb-8da0-a2d20f7ebbaa,-34.598198,-58.447133,Villa Crespo,Básico,Adulto,14
+b7128c98-50b3-4c21-b438-543323a0eefd,-34.59773,-58.430768,Villa Crespo,Estándar,Senior,14
+01915a6d-8b31-417b-b390-4a4ae338aad3,-34.647666,-58.513613,Liniers,Básico,Adulto,13
+3381f577-6f38-4c97-84c5-7b13ba704475,-34.644847,-58.52333,Liniers,Premium,Senior,14
+be0deb54-7695-4a79-8be8-2c342ea1bc77,-34.584959,-58.483085,Parque Chas,Estándar,Senior,14
+8f939e08-6472-47b0-8990-13ceb0ca7994,-34.630362,-58.394084,Parque Patricios,Estándar,Senior,14
+120e2981-e215-41fe-a5df-5a5d4276d787,-34.622946,-58.5299,Villa Real,Estándar,Senior,14
+2a275002-3867-49c7-ace4-1545b4a5086e,-34.640655,-58.522331,Liniers,Estándar,Joven,14
+b0551e46-d196-4cc2-85d3-e7d0d08c2420,-34.593071,-58.48079,Agronomia,Básico,Adulto,14
+916407d3-6a88-45de-9545-48450f0ae673,-34.587451,-58.500458,Villa Pueyrredon,Estándar,Adulto,14
+afb1f9bf-f977-43c9-a2d3-1c8566b51707,-34.654679,-58.473505,Parque Avellaneda,Estándar,Senior,14
+0adb1b47-182d-4dc3-9e7b-bbe267a8c587,-34.628854,-58.392905,Parque Patricios,Premium,Joven,17
+fb94e05c-7eb0-4a7c-ba83-1179d91e18d0,-34.621107,-58.490815,Floresta,Premium,Joven,13
+bcb46299-cb7c-46cb-838a-c4dc5d144670,-34.607375,-58.457539,Caballito,Básico,Joven,13
+c13f14f4-106f-4509-8ce2-8925bda566ac,-34.610956,-58.450811,Caballito,Estándar,Adulto,14
+7cefc835-5bd3-4f0e-b90a-86e81826397b,-34.54723,-58.468081,Nuñez,Estándar,Senior,13
+1d6d9840-e97d-49dc-9414-cef9f7e31715,-34.592246,-58.374673,Retiro,Premium,Adulto,17
+f4788c28-c208-44f9-ab0e-4e664b55229b,-34.553691,-58.491997,Saavedra,Estándar,Senior,14
+895ec016-c387-46c0-879d-c4091149b5a8,-34.658831,-58.475899,Parque Avellaneda,Estándar,Adulto,14
+f3618cac-a272-4f79-90aa-442f5fe84636,-34.658936,-58.463241,Parque Avellaneda,Premium,Senior,14
+53bc0610-af72-4494-9530-5faa4ef32b45,-34.563365,-58.488872,Villa Urquiza,Estándar,Adulto,17
+96273c2d-a072-4052-827b-b7f047455374,-34.587332,-58.468878,Villa Ortuzar,Estándar,Adulto,14
+4337c2b0-887c-465c-96c3-3c0a7d23b7c7,-34.610691,-58.466965,Villa Gral. Mitre,Básico,Adulto,14
+60a33f0f-61a6-4475-acc5-441af9629403,-34.631038,-58.473763,Flores,Estándar,Joven,14
+d7aec426-5679-4fac-b448-9e138215d16e,-34.580378,-58.470997,Villa Ortuzar,Estándar,Senior,17
+85209e29-da08-42ba-89df-0e7940300953,-34.604133,-58.478038,Villa Del Parque,Estándar,Adulto,14
+6c1d93fc-fbee-43a5-a9c2-e2db2e1247b0,-34.623851,-58.432466,Caballito,Premium,Adulto,23
+e5851fa1-899d-4857-9e02-7b7d2364b377,-34.644304,-58.524911,Liniers,Estándar,Adulto,17
+02ffa433-e841-41de-9fe2-206c4dd796d2,-34.600629,-58.422873,Almagro,Estándar,Adulto,14
+be2992d8-91d1-49b7-9794-fde9beaffe6b,-34.624895,-58.494563,Velez Sarsfield,Estándar,Joven,14
+b8ff2223-fdc5-4197-adcb-28dcc41e972a,-34.618146,-58.519886,Villa Real,Básico,Adulto,14
+985d64c0-68dc-44e6-9cee-822f50c345fa,-34.559386,-58.478218,Coghlan,Estándar,Adulto,14
+f28424b7-50d3-49c2-a1ca-d5879721edc7,-34.580292,-58.372611,Retiro,Básico,Adulto,14
+92570809-c9ad-49af-abfe-cf2bdc6ed2f8,-34.657692,-58.415254,Nueva Pompeya,Premium,Senior,14
+6d69205d-9ee2-4b9e-9e66-da2c17c2ae4d,-34.627011,-58.519888,Versalles,Estándar,Joven,14
+643d425f-1369-42a4-b009-1d4427f7fc72,-34.64012,-58.507157,Villa Luro,Premium,Adulto,13
+1bc7dcdf-97e0-48e1-bf51-2581734e0980,-34.686009,-58.472167,Villa Riachuelo,Básico,Senior,13
+1f29a8e0-cd02-458e-80e3-7a8d61e61c11,-34.643173,-58.497612,Villa Luro,Básico,Joven,16
+e39d3f78-8d24-4c6f-96a5-8e6c97a86a09,-34.646252,-58.431721,Nueva Pompeya,Premium,Joven,14
+34b18094-32cc-488f-a5a9-0858e6ba648c,-34.619949,-58.527044,Villa Real,Premium,Adulto,23
+ff3c742d-9739-4ecf-b29d-e348487a6015,-34.683291,-58.516215,,Premium,Senior,23
